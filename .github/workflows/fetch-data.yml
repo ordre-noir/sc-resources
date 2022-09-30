@@ -29,10 +29,18 @@ jobs:
         with:
           cmd: 'jq .Name tradein.space/GameData.json -r'
 
-      - name: save file if updated
+      - name: Extract SystemLocations
+        uses: sergeysova/jq-action@v2
+        id: system-locations
+        with:
+          cmd: 'jq .SystemLocations tradein.space/SystemLocations.json -r'
+
+      - name: create file SystemLocations.json
+        run: echo ${{ steps.system-locations.outputs.value }} > tradein.space/SystemLocations.json
+
+      - name: save file and tag
         uses: EndBug/add-and-commit@v9
         with:
-          add: tradein.space/GameData.json
-          message: 'update GameData.json'
+          add: tradein.space/*.json
+          message: 'update GameData'
           tag: ${{ steps.version.outputs.value }}
-      
