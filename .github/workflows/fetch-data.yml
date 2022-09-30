@@ -33,7 +33,7 @@ jobs:
         uses: sergeysova/jq-action@v2
         id: system-locations
         with:
-          cmd: 'jq .SystemLocations tradein.space/GameData.json -r'
+          cmd: 'jq .SystemLocations tradein.space/GameData.json -r -c'
           multiline: true
 
       - name: create file SystemLocations.json
