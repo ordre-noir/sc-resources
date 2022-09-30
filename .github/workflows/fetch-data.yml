@@ -27,7 +27,7 @@ jobs:
         uses: sergeysova/jq-action@v2
         id: version
         with:
-          cmd: 'jq .Name GameData.json -r'
+          cmd: 'jq .Name tradein.space/GameData.json -r'
 
       - name: save file if updated
         uses: EndBug/add-and-commit@v9
