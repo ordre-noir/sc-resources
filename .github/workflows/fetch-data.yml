@@ -22,10 +22,17 @@ jobs:
       # Runs a single command using the runners shell
       - name: fetch tradein.space/GameData.json
         run: curl https://tradein.space/api/data/GameData -o tradein.space/GameData.json
-      
+
+      - name: Extract version from GameData.json
+        uses: sergeysova/jq-action@v2
+        id: version
+        with:
+          cmd: 'jq .Name GameData.json -r'
+
       - name: save file if updated
         uses: EndBug/add-and-commit@v9
         with:
           add: tradein.space/GameData.json
           message: 'update GameData.json'
-     
+          tag: ${{ steps.version.outputs.value }}
+      
