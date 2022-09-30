@@ -21,11 +21,11 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: fetch tradein.space/GameData.json
-        run: curl https://tradein.space/api/data/GameData -o /tradein.space/GameData.json
+        run: curl https://tradein.space/api/data/GameData -o tradein.space/GameData.json
       
       - name: save file if updated
         uses: EndBug/add-and-commit@v9
         with:
-          add: /tradein.space/GameData.json
+          add: tradein.space/GameData.json
           message: 'update GameData.json'
      
