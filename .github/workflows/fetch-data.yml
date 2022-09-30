@@ -33,7 +33,7 @@ jobs:
         uses: sergeysova/jq-action@v2
         id: system-locations
         with:
-          cmd: 'jq .SystemLocations tradein.space/SystemLocations.json -r'
+          cmd: 'jq .SystemLocations tradein.space/GameData.json -r'
 
       - name: create file SystemLocations.json
         run: echo ${{ steps.system-locations.outputs.value }} > tradein.space/SystemLocations.json
