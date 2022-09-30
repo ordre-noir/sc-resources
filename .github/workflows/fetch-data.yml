@@ -20,5 +20,12 @@ jobs:
       - uses: actions/checkout@v3
 
       # Runs a single command using the runners shell
-      - name: Run a one-line script
-        run: curl https://tradein.space/api/data/GameData -o tradein.space/GameData.json
+      - name: fetch tradein.space/GameData.json
+        run: curl https://tradein.space/api/data/GameData -o /tradein.space/GameData.json
+      
+      - name: save file if updated
+        uses: EndBug/add-and-commit@v9
+        with:
+          add: /tradein.space/GameData.json
+          message: 'update GameData.json'
+     
