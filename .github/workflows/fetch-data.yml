@@ -34,6 +34,7 @@ jobs:
         id: system-locations
         with:
           cmd: 'jq .SystemLocations tradein.space/GameData.json -r'
+          multiline: true
 
       - name: create file SystemLocations.json
         run: echo ${{ steps.system-locations.outputs.value }} > tradein.space/SystemLocations.json
