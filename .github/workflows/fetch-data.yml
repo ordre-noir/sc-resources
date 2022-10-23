@@ -25,14 +25,14 @@ jobs:
         uses: sergeysova/jq-action@v2
         id: version
         with:
-          cmd: 'jq .Name tradein.space/GameData.json -r'
+          cmd: echo PU_VERSION='jq .Name tradein.space/GameData.json -r' >> $GITHUB_OUTPUT
 
       - name: save file and tag
         uses: EndBug/add-and-commit@v9
         with:
           add: tradein.space/*.json
           message: 'update GameData'
-          tag: ${{ steps.version.outputs.value }}
+          tag: ${{ steps.pu_version.outputs.pu_version }}
 
   extraction:
     runs-on: ubuntu-latest
