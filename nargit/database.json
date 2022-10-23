@@ -1,0 +1,2564 @@
+[
+  {
+    "ParentBodyID": null,
+    "ParentLocationID": null,
+    "Name": "Stanton",
+    "Description": "A class-G main sequence star.",
+    "AdditionalProperties": {
+      "LocalPosition": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "GlobalPosition": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Rotation": {
+        "X": 0.0,
+        "Y": 0,
+        "Z": 0
+      },
+      "AtmosphereHeight": null,
+      "Gravity": null,
+      "Radius": null,
+      "RotationSpeed": null,
+      "OMRadius": 0.0
+    },
+    "IsHidden": false,
+    "QTDistance": 121800000,
+    "StarmapID": "34ff378f-faee-47bb-b5fe-f505e665c5ca",
+    "LocationType": 0,
+    "ServiceFlags": 917479,
+    "Key": "stanton",
+    "ID": 7251
+  },
+  {
+    "ParentBodyID": 7251,
+    "ParentLocationID": 7251,
+    "Name": "ARC L5",
+    "Description": "A Lagrangian gravity well located in the orbit of ArcCorp. Beside being home to a collection of asteroids, a convenient R&R rest stop is available for refueling and repairs.",
+    "AdditionalProperties": {
+      "LocalPosition": {
+        "X": -9890422516.169678,
+        "Y": -27173732225.140015,
+        "Z": 8076.625
+      },
+      "GlobalPosition": {
+        "X": -9890422516.169678,
+        "Y": -27173732225.140015,
+        "Z": 8076.625
+      },
+      "Rotation": {
+        "X": 0.0,
+        "Y": 0,
+        "Z": 0
+      },
+      "AtmosphereHeight": null,
+      "Gravity": null,
+      "Radius": null,
+      "RotationSpeed": null,
+      "OMRadius": 0.0
+    },
+    "IsHidden": false,
+    "QTDistance": 33000000,
+    "StarmapID": "9320ba84-f110-4589-907f-e85d76e05c44",
+    "LocationType": 4,
+    "ServiceFlags": 377573,
+    "Key": "arc_l5",
+    "ID": 7252
+  },
+  {
+    "ParentBodyID": 7251,
+    "ParentLocationID": 7251,
+    "Name": "MIC L4",
+    "Description": "A Lagrangian gravity well located in the orbit of microTech. Beside being home to a collection of asteroids, a convenient R&R rest stop is available for refueling and repairs.",
+    "AdditionalProperties": {
+      "LocalPosition": {
+        "X": -20971933230.165882,
+        "Y": 38045504032.01936,
+        "Z": 0.0
+      },
+      "GlobalPosition": {
+        "X": -20971933230.165882,
+        "Y": 38045504032.01936,
+        "Z": 0.0
+      },
+      "Rotation": {
+        "X": 0.0,
+        "Y": 0,
+        "Z": 0
+      },
+      "AtmosphereHeight": null,
+      "Gravity": null,
+      "Radius": null,
+      "RotationSpeed": null,
+      "OMRadius": 0.0
+    },
+    "IsHidden": false,
+    "QTDistance": 33000000,
+    "StarmapID": "5e71e60c-52cc-42b9-806a-d8d2a236df28",
+    "LocationType": 4,
+    "ServiceFlags": 101093,
+    "Key": "mic_l4",
+    "ID": 7253
+  },
+  {
+    "ParentBodyID": 7251,
+    "ParentLocationID": 7251,
+    "Name": "MIC L1",
+    "Description": "A Lagrangian gravity well located in the orbit of microTech.\u00a0Beside being home to a collection of asteroids, a convenient R&R rest stop is available for refueling and repairs.",
+    "AdditionalProperties": {
+      "LocalPosition": {
+        "X": 20215824238.186035,
+        "Y": 33467065007.614746,
+        "Z": 0.0
+      },
+      "GlobalPosition": {
+        "X": 20215824238.186035,
+        "Y": 33467065007.614746,
+        "Z": 0.0
+      },
+      "Rotation": {
+        "X": 0.0,
+        "Y": 0,
+        "Z": 0
+      },
+      "AtmosphereHeight": null,
+      "Gravity": null,
+      "Radius": null,
+      "RotationSpeed": null,
+      "OMRadius": 0.0
+    },
+    "IsHidden": false,
+    "QTDistance": 33000000,
+    "StarmapID": "82e23fbe-4478-4281-bcd6-bc68280d7976",
+    "LocationType": 4,
+    "ServiceFlags": 393191,
+    "Key": "mic_l1",
+    "ID": 7254
+  },
+  {
+    "ParentBodyID": 7251,
+    "ParentLocationID": 7251,
+    "Name": "MIC L5",
+    "Description": "A Lagrangian gravity well located in the orbit of microTech. Beside being home to a collection of asteroids, a convenient R&R rest stop is available for refueling and repairs.",
+    "AdditionalProperties": {
+      "LocalPosition": {
+        "X": 43435204288.21857,
+        "Y": -851406955.90843,
+        "Z": 0.0
+      },
+      "GlobalPosition": {
+        "X": 43435204288.21857,
+        "Y": -851406955.90843,
+        "Z": 0.0
+      },
+      "Rotation": {
+        "X": 0.0,
+        "Y": 0,
+        "Z": 0
+      },
+      "AtmosphereHeight": null,
+      "Gravity": null,
+      "Radius": null,
+      "RotationSpeed": null,
+      "OMRadius": 0.0
+    },
+    "IsHidden": false,
+    "QTDistance": 33000000,
+    "StarmapID": "3a42031e-71a7-4bd4-ac71-8dcdad4b52ed",
+    "LocationType": 4,
+    "ServiceFlags": 131047,
+    "Key": "mic_l5",
+    "ID": 7255
+  },
+  {
+    "ParentBodyID": 7251,
+    "ParentLocationID": 7251,
+    "Name": "HUR L1",
+    "Description": "A Lagrangian gravity well located in the orbit of Hurston. Beside being home to a collection of asteroids, a convenient R&R rest stop is available for refueling and repairs. ",
+    "AdditionalProperties": {
+      "LocalPosition": {
+        "X": 11565411328.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "GlobalPosition": {
+        "X": 11565411328.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Rotation": {
+        "X": 0.0,
+        "Y": 0,
+        "Z": 0
+      },
+      "AtmosphereHeight": null,
+      "Gravity": null,
+      "Radius": null,
+      "RotationSpeed": null,
+      "OMRadius": 0.0
+    },
+    "IsHidden": false,
+    "QTDistance": 33000000,
+    "StarmapID": "4644d97d-9eb6-4cb5-9f44-ca52872e8aec",
+    "LocationType": 4,
+    "ServiceFlags": 393191,
+    "Key": "hur_l1",
+    "ID": 7256
+  },
+  {
+    "ParentBodyID": 7251,
+    "ParentLocationID": 7251,
+    "Name": "HUR L4",
+    "Description": "A Lagrangian gravity well located in the orbit of Hurston. Beside being home to a collection of asteroids, a convenient R&R rest stop is available for refueling and repairs.",
+    "AdditionalProperties": {
+      "LocalPosition": {
+        "X": 6425228288.0,
+        "Y": 11128823808.0,
+        "Z": 0.0
+      },
+      "GlobalPosition": {
+        "X": 6425228288.0,
+        "Y": 11128823808.0,
+        "Z": 0.0
+      },
+      "Rotation": {
+        "X": 0.0,
+        "Y": 0,
+        "Z": 0
+      },
+      "AtmosphereHeight": null,
+      "Gravity": null,
+      "Radius": null,
+      "RotationSpeed": null,
+      "OMRadius": 0.0
+    },
+    "IsHidden": false,
+    "QTDistance": 33000000,
+    "StarmapID": "d78e212d-934d-45a7-b4a7-15605742625d",
+    "LocationType": 4,
+    "ServiceFlags": 389861,
+    "Key": "hur_l4",
+    "ID": 7257
+  },
+  {
+    "ParentBodyID": 7251,
+    "ParentLocationID": 7251,
+    "Name": "CRU L1",
+    "Description": "A Lagrangian gravity well located in the orbit of Crusader. Beside being home to a collection of asteroids, a convenient R&R rest stop is available for refueling and repairs. ",
+    "AdditionalProperties": {
+      "LocalPosition": {
+        "X": -17065957375.999998,
+        "Y": -2398463999.999994,
+        "Z": 0.0
+      },
+      "GlobalPosition": {
+        "X": -17065957375.999998,
+        "Y": -2398463999.999994,
+        "Z": 0.0
+      },
+      "Rotation": {
+        "X": 0.0,
+        "Y": 0,
+        "Z": 0
+      },
+      "AtmosphereHeight": null,
+      "Gravity": null,
+      "Radius": null,
+      "RotationSpeed": null,
+      "OMRadius": 0.0
+    },
+    "IsHidden": false,
+    "QTDistance": 33000000,
+    "StarmapID": "cf2fd473-25c6-4ae5-83c7-9d3d479bc8cf",
+    "LocationType": 4,
+    "ServiceFlags": 131047,
+    "Key": "cru_l1",
+    "ID": 7258
+  },
+  {
+    "ParentBodyID": 7251,
+    "ParentLocationID": 7251,
+    "Name": "CRU L5",
+    "Description": "A Lagrangian gravity well located in the orbit of Crusader. Beside being home to a collection of asteroids, a convenient R&R rest stop is available for refueling and repairs. ",
+    "AdditionalProperties": {
+      "LocalPosition": {
+        "X": -11789008988.260246,
+        "Y": 15089246106.763807,
+        "Z": 0.0
+      },
+      "GlobalPosition": {
+        "X": -11789008988.260246,
+        "Y": 15089246106.763807,
+        "Z": 0.0
+      },
+      "Rotation": {
+        "X": 0.0,
+        "Y": 0,
+        "Z": 0
+      },
+      "AtmosphereHeight": null,
+      "Gravity": null,
+      "Radius": null,
+      "RotationSpeed": null,
+      "OMRadius": 0.0
+    },
+    "IsHidden": false,
+    "QTDistance": 33000000,
+    "StarmapID": "ae123dcc-6258-4429-9d16-e39dac5a565b",
+    "LocationType": 4,
+    "ServiceFlags": 373477,
+    "Key": "cru_l5",
+    "ID": 7259
+  },
+  {
+    "ParentBodyID": 7251,
+    "ParentLocationID": 7251,
+    "Name": "CRU L4",
+    "Description": "A Lagrangian gravity well located in the orbit of Crusader. Beside being home to a collection of asteroids, a convenient R&R rest stop is available for refueling and repairs. ",
+    "AdditionalProperties": {
+      "LocalPosition": {
+        "X": -7173168639.999996,
+        "Y": -17754204160.000004,
+        "Z": 0.0
+      },
+      "GlobalPosition": {
+        "X": -7173168639.999996,
+        "Y": -17754204160.000004,
+        "Z": 0.0
+      },
+      "Rotation": {
+        "X": 0.0,
+        "Y": 0,
+        "Z": 0
+      },
+      "AtmosphereHeight": null,
+      "Gravity": null,
+      "Radius": null,
+      "RotationSpeed": null,
+      "OMRadius": 0.0
+    },
+    "IsHidden": false,
+    "QTDistance": 33000000,
+    "StarmapID": "c67d1b8f-32ee-4fe1-8a66-bd1bfa04c5c0",
+    "LocationType": 4,
+    "ServiceFlags": 387813,
+    "Key": "cru_l4",
+    "ID": 7260
+  },
+  {
+    "ParentBodyID": 7251,
+    "ParentLocationID": 7251,
+    "Name": "HUR L3",
+    "Description": "A Lagrangian gravity well located in the orbit of Hurston. Beside being home to a collection of asteroids, a convenient R&R rest stop is available for refueling and repairs.",
+    "AdditionalProperties": {
+      "LocalPosition": {
+        "X": -12850457600.0,
+        "Y": -1123.422729,
+        "Z": 0.0
+      },
+      "GlobalPosition": {
+        "X": -12850457600.0,
+        "Y": -1123.422729,
+        "Z": 0.0
+      },
+      "Rotation": {
+        "X": 0.0,
+        "Y": 0,
+        "Z": 0
+      },
+      "AtmosphereHeight": null,
+      "Gravity": null,
+      "Radius": null,
+      "RotationSpeed": null,
+      "OMRadius": 0.0
+    },
+    "IsHidden": false,
+    "QTDistance": 33000000,
+    "StarmapID": "f070fde0-0792-4edf-9a77-bd693d414bd2",
+    "LocationType": 4,
+    "ServiceFlags": 361189,
+    "Key": "hur_l3",
+    "ID": 7261
+  },
+  {
+    "ParentBodyID": 7251,
+    "ParentLocationID": 7251,
+    "Name": "ARC L3",
+    "Description": "A Lagrangian gravity well located in the orbit of ArcCorp. Beside being home to a collection of asteroids, a convenient R&R rest stop is available for refueling and repairs.",
+    "AdditionalProperties": {
+      "LocalPosition": {
+        "X": -25043446883.50293,
+        "Y": 14458841787.628052,
+        "Z": 8076.625
+      },
+      "GlobalPosition": {
+        "X": -25043446883.50293,
+        "Y": 14458841787.628052,
+        "Z": 8076.625
+      },
+      "Rotation": {
+        "X": 0.0,
+        "Y": 0,
+        "Z": 0
+      },
+      "AtmosphereHeight": null,
+      "Gravity": null,
+      "Radius": null,
+      "RotationSpeed": null,
+      "OMRadius": 0.0
+    },
+    "IsHidden": false,
+    "QTDistance": 33000000,
+    "StarmapID": "8e1e3499-2188-4a1d-97eb-5cd45f66f908",
+    "LocationType": 4,
+    "ServiceFlags": 377573,
+    "Key": "arc_l3",
+    "ID": 7262
+  },
+  {
+    "ParentBodyID": 7251,
+    "ParentLocationID": 7251,
+    "Name": "ArcCorp",
+    "Description": "Buildings cover a majority of the planet\u2019s surface with residential areas relegated to the poles while ArcCorp\u2019s factories, business headquarters, financial and commercial districts are located in between.",
+    "AdditionalProperties": {
+      "LocalPosition": {
+        "X": 18587664739.85602,
+        "Y": -22151916920.3126,
+        "Z": 0.0
+      },
+      "GlobalPosition": {
+        "X": 18587664739.85602,
+        "Y": -22151916920.3126,
+        "Z": 0.0
+      },
+      "Rotation": {
+        "X": 230.8844272,
+        "Y": 0,
+        "Z": 0
+      },
+      "AtmosphereHeight": null,
+      "Gravity": null,
+      "Radius": 800000.0,
+      "RotationSpeed": 3.11,
+      "OMRadius": 1151000.0
+    },
+    "IsHidden": false,
+    "QTDistance": 990000,
+    "StarmapID": "35a9f8f5-8f80-4796-83db-7d7362baeb9a",
+    "LocationType": 1,
+    "ServiceFlags": 917477,
+    "Key": "arccorp",
+    "ID": 7263
+  },
+  {
+    "ParentBodyID": 7251,
+    "ParentLocationID": 7251,
+    "Name": "HUR L5",
+    "Description": "A Lagrangian gravity well located in the orbit of Hurston. Beside being home to a collection of asteroids, a convenient R&R rest stop is available for refueling and repairs.",
+    "AdditionalProperties": {
+      "LocalPosition": {
+        "X": 6425227776.0,
+        "Y": -11128823808.0,
+        "Z": 0.0
+      },
+      "GlobalPosition": {
+        "X": 6425227776.0,
+        "Y": -11128823808.0,
+        "Z": 0.0
+      },
+      "Rotation": {
+        "X": 0.0,
+        "Y": 0,
+        "Z": 0
+      },
+      "AtmosphereHeight": null,
+      "Gravity": null,
+      "Radius": null,
+      "RotationSpeed": null,
+      "OMRadius": 0.0
+    },
+    "IsHidden": false,
+    "QTDistance": 33000000,
+    "StarmapID": "e81301eb-b6e3-4e4c-8066-326fe9248e55",
+    "LocationType": 4,
+    "ServiceFlags": 365285,
+    "Key": "hur_l5",
+    "ID": 7264
+  },
+  {
+    "ParentBodyID": 7251,
+    "ParentLocationID": 7251,
+    "Name": "ARC L2",
+    "Description": "A Lagrangian gravity well located in the orbit of ArcCorp. Beside being home to a collection of asteroids, a convenient R&R rest stop is available for refueling and repairs.",
+    "AdditionalProperties": {
+      "LocalPosition": {
+        "X": 20446718503.390137,
+        "Y": -24367450990.706055,
+        "Z": 8076.625
+      },
+      "GlobalPosition": {
+        "X": 20446718503.390137,
+        "Y": -24367450990.706055,
+        "Z": 8076.625
+      },
+      "Rotation": {
+        "X": 0.0,
+        "Y": 0,
+        "Z": 0
+      },
+      "AtmosphereHeight": null,
+      "Gravity": null,
+      "Radius": null,
+      "RotationSpeed": null,
+      "OMRadius": 0.0
+    },
+    "IsHidden": false,
+    "QTDistance": 33000000,
+    "StarmapID": "6c9dd307-7b70-451f-bb38-9e70c0177f46",
+    "LocationType": 4,
+    "ServiceFlags": 393191,
+    "Key": "arc_l2",
+    "ID": 7265
+  },
+  {
+    "ParentBodyID": 7251,
+    "ParentLocationID": 7251,
+    "Name": "MIC L2",
+    "Description": "A Lagrangian gravity well located in the orbit of microTech. Beside being home to a collection of asteroids, a convenient R&R rest stop is available for refueling and repairs.",
+    "AdditionalProperties": {
+      "LocalPosition": {
+        "X": 24708827153.475586,
+        "Y": 40905202459.222755,
+        "Z": -0.050088
+      },
+      "GlobalPosition": {
+        "X": 24708827153.475586,
+        "Y": 40905202459.222755,
+        "Z": -0.050088
+      },
+      "Rotation": {
+        "X": 0.0,
+        "Y": 0,
+        "Z": 0
+      },
+      "AtmosphereHeight": null,
+      "Gravity": null,
+      "Radius": null,
+      "RotationSpeed": null,
+      "OMRadius": 0.0
+    },
+    "IsHidden": false,
+    "QTDistance": 33000000,
+    "StarmapID": "142cf72a-da60-4348-bc37-44046a6ed458",
+    "LocationType": 4,
+    "ServiceFlags": 393191,
+    "Key": "mic_l2",
+    "ID": 7266
+  },
+  {
+    "ParentBodyID": 7251,
+    "ParentLocationID": 7251,
+    "Name": "Crusader",
+    "Description": "A low mass gas giant that features a breathable atmosphere at high altitudes. This was an ideal situation for ship manufacturer Crusader, who now occupies the planet\u2019s floating platforms to build massive ships like the Starliner.",
+    "AdditionalProperties": {
+      "LocalPosition": {
+        "X": -18962176000.0,
+        "Y": -2664959999.999996,
+        "Z": 0.0
+      },
+      "GlobalPosition": {
+        "X": -18962176000.0,
+        "Y": -2664959999.999996,
+        "Z": 0.0
+      },
+      "Rotation": {
+        "X": 300.5056215,
+        "Y": 0,
+        "Z": 0
+      },
+      "AtmosphereHeight": null,
+      "Gravity": null,
+      "Radius": 7450010.0,
+      "RotationSpeed": 5.1,
+      "OMRadius": 10758000.0
+    },
+    "IsHidden": false,
+    "QTDistance": 7972500,
+    "StarmapID": "c15033ab-2eb3-4d6d-b882-0cb336e67ed8",
+    "LocationType": 1,
+    "ServiceFlags": 917477,
+    "Key": "crusader",
+    "ID": 7267
+  },
+  {
+    "ParentBodyID": 7251,
+    "ParentLocationID": 7251,
+    "Name": "HUR L2",
+    "Description": "A Lagrangian gravity well located in the orbit of Hurston.",
+    "AdditionalProperties": {
+      "LocalPosition": {
+        "X": 14135502848.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "GlobalPosition": {
+        "X": 14135502848.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Rotation": {
+        "X": 0.0,
+        "Y": 0,
+        "Z": 0
+      },
+      "AtmosphereHeight": null,
+      "Gravity": null,
+      "Radius": null,
+      "RotationSpeed": null,
+      "OMRadius": 0.0
+    },
+    "IsHidden": false,
+    "QTDistance": 33000000,
+    "StarmapID": "ebe4b6d6-9013-4ad9-bd25-7a8390262c4b",
+    "LocationType": 4,
+    "ServiceFlags": 393191,
+    "Key": "hur_l2",
+    "ID": 7268
+  },
+  {
+    "ParentBodyID": 7251,
+    "ParentLocationID": 7251,
+    "Name": "Hurston",
+    "Description": "A wealth of ore and other resources are mined on Hurston to manufacture the company\u2019s line of munitions and weapons. Heavy industry has resulted in severe pollution across the planet.",
+    "AdditionalProperties": {
+      "LocalPosition": {
+        "X": 12850457093.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "GlobalPosition": {
+        "X": 12850457093.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Rotation": {
+        "X": 19.39,
+        "Y": 0,
+        "Z": 0
+      },
+      "AtmosphereHeight": null,
+      "Gravity": null,
+      "Radius": 1000000.0,
+      "RotationSpeed": 2.48,
+      "OMRadius": 1438000.0
+    },
+    "IsHidden": false,
+    "QTDistance": 1200000,
+    "StarmapID": "551af60b-7727-4936-acc7-763d25d7a1de",
+    "LocationType": 1,
+    "ServiceFlags": 917477,
+    "Key": "hurston",
+    "ID": 7269
+  },
+  {
+    "ParentBodyID": 7251,
+    "ParentLocationID": 7251,
+    "Name": "ARC L1",
+    "Description": "A Lagrangian gravity well located in the orbit of ArcCorp. Beside being home to a collection of asteroids, a convenient R&R rest stop is available for refueling and repairs.",
+    "AdditionalProperties": {
+      "LocalPosition": {
+        "X": 16729134637.384644,
+        "Y": -19937006924.891357,
+        "Z": 8076.625
+      },
+      "GlobalPosition": {
+        "X": 16729134637.384644,
+        "Y": -19937006924.891357,
+        "Z": 8076.625
+      },
+      "Rotation": {
+        "X": 0.0,
+        "Y": 0,
+        "Z": 0
+      },
+      "AtmosphereHeight": null,
+      "Gravity": null,
+      "Radius": null,
+      "RotationSpeed": null,
+      "OMRadius": 0.0
+    },
+    "IsHidden": false,
+    "QTDistance": 33000000,
+    "StarmapID": "0b8b226a-076f-44fb-a522-dee6b0c4be4c",
+    "LocationType": 4,
+    "ServiceFlags": 393191,
+    "Key": "arc_l1",
+    "ID": 7270
+  },
+  {
+    "ParentBodyID": 7251,
+    "ParentLocationID": 7251,
+    "Name": "ARC L4",
+    "Description": "A Lagrangian gravity well located in the orbit of ArcCorp. Beside being home to a collection of asteroids, a convenient R&R rest stop is available for refueling and repairs.",
+    "AdditionalProperties": {
+      "LocalPosition": {
+        "X": 28478354915.65576,
+        "Y": 5021502482.911743,
+        "Z": 8076.625
+      },
+      "GlobalPosition": {
+        "X": 28478354915.65576,
+        "Y": 5021502482.911743,
+        "Z": 8076.625
+      },
+      "Rotation": {
+        "X": 0.0,
+        "Y": 0,
+        "Z": 0
+      },
+      "AtmosphereHeight": null,
+      "Gravity": null,
+      "Radius": null,
+      "RotationSpeed": null,
+      "OMRadius": 0.0
+    },
+    "IsHidden": false,
+    "QTDistance": 33000000,
+    "StarmapID": "ba1492c3-5e0a-4e7e-83e8-f55aed92a756",
+    "LocationType": 4,
+    "ServiceFlags": 393191,
+    "Key": "arc_l4",
+    "ID": 7271
+  },
+  {
+    "ParentBodyID": 7251,
+    "ParentLocationID": 7251,
+    "Name": "microTech",
+    "Description": "A terraforming error left the planet with an unnaturally dense cloud cover and a colder than average climate making it an ideal location for owner microTech to house its heat-sensitive computing and manufacturing centers.",
+    "AdditionalProperties": {
+      "LocalPosition": {
+        "X": -22462085252.484795,
+        "Y": -37185744964.8301,
+        "Z": 0.0
+      },
+      "GlobalPosition": {
+        "X": -22462085252.484795,
+        "Y": -37185744964.8301,
+        "Z": 0.0
+      },
+      "Rotation": {
+        "X": 217.2829681,
+        "Y": 0,
+        "Z": 0
+      },
+      "AtmosphereHeight": null,
+      "Gravity": null,
+      "Radius": 1000000.0,
+      "RotationSpeed": 4.12,
+      "OMRadius": 1439000.0
+    },
+    "IsHidden": false,
+    "QTDistance": 1200000,
+    "StarmapID": "5a529db7-1a4e-45b0-bdcb-a5a0c7a7fc57",
+    "LocationType": 1,
+    "ServiceFlags": 917477,
+    "Key": "microtech",
+    "ID": 7272
+  },
+  {
+    "ParentBodyID": 7251,
+    "ParentLocationID": 7251,
+    "Name": "MIC L3",
+    "Description": "A Lagrangian gravity well located in the orbit of microTech. Beside being home to a collection of asteroids, a convenient R&R rest stop is available for refueling and repairs.",
+    "AdditionalProperties": {
+      "LocalPosition": {
+        "X": -22457170265.786125,
+        "Y": -37187612395.6401,
+        "Z": 0.0
+      },
+      "GlobalPosition": {
+        "X": -22457170265.786125,
+        "Y": -37187612395.6401,
+        "Z": 0.0
+      },
+      "Rotation": {
+        "X": 0.0,
+        "Y": 0,
+        "Z": 0
+      },
+      "AtmosphereHeight": null,
+      "Gravity": null,
+      "Radius": null,
+      "RotationSpeed": null,
+      "OMRadius": 0.0
+    },
+    "IsHidden": false,
+    "QTDistance": 33000000,
+    "StarmapID": "d61da713-acdb-43c7-8605-8acb2a0fa190",
+    "LocationType": 4,
+    "ServiceFlags": 103141,
+    "Key": "mic_l3",
+    "ID": 7273
+  },
+  {
+    "ParentBodyID": 7251,
+    "ParentLocationID": 7251,
+    "Name": "CRU L3",
+    "Description": "A Lagrangian gravity well located in the orbit of Crusader.",
+    "AdditionalProperties": {
+      "LocalPosition": {
+        "X": 18962164826.094032,
+        "Y": 2664965040.501728,
+        "Z": 0.0
+      },
+      "GlobalPosition": {
+        "X": 18962164826.094032,
+        "Y": 2664965040.501728,
+        "Z": 0.0
+      },
+      "Rotation": {
+        "X": 0.0,
+        "Y": 0,
+        "Z": 0
+      },
+      "AtmosphereHeight": null,
+      "Gravity": null,
+      "Radius": null,
+      "RotationSpeed": null,
+      "OMRadius": 0.0
+    },
+    "IsHidden": false,
+    "QTDistance": 33000000,
+    "StarmapID": "2083c403-4c40-4727-b392-49976c460028",
+    "LocationType": 4,
+    "ServiceFlags": 262144,
+    "Key": "cru_l3",
+    "ID": 7274
+  },
+  {
+    "ParentBodyID": 7272,
+    "ParentLocationID": 7272,
+    "Name": "Clio",
+    "Description": "Named after the ancient Greek muse of history to supposedly remind those gazing upon the moon from microTech to remember that \u2018their work stands on those who came before them.\u2019",
+    "AdditionalProperties": {
+      "LocalPosition": {
+        "X": -22476728220.510056,
+        "Y": -37091020074.37551,
+        "Z": 0.0
+      },
+      "GlobalPosition": {
+        "X": -22476728220.510056,
+        "Y": -37091020074.37551,
+        "Z": 0.0
+      },
+      "Rotation": {
+        "X": 311.6916655,
+        "Y": 0,
+        "Z": 0
+      },
+      "AtmosphereHeight": null,
+      "Gravity": null,
+      "Radius": 337170.0,
+      "RotationSpeed": 0.0,
+      "OMRadius": 489849.0
+    },
+    "IsHidden": false,
+    "QTDistance": 504025,
+    "StarmapID": "2a21d86f-ebf0-4052-a134-c414c9998592",
+    "LocationType": 2,
+    "ServiceFlags": 262881,
+    "Key": "clio",
+    "ID": 7275
+  },
+  {
+    "ParentBodyID": 7272,
+    "ParentLocationID": 7272,
+    "Name": "Euterpe",
+    "Description": "Named after the ancient Greek muse of music to supposedly remind those gazing upon the moon from microTech to be guided by \u2018the natural rhythm of the universe in their designs.\u2019",
+    "AdditionalProperties": {
+      "LocalPosition": {
+        "X": -22488109735.701077,
+        "Y": -37081123564.67918,
+        "Z": 0.0
+      },
+      "GlobalPosition": {
+        "X": -22488109735.701077,
+        "Y": -37081123564.67918,
+        "Z": 0.0
+      },
+      "Rotation": {
+        "X": 269.161587,
+        "Y": 0,
+        "Z": 0
+      },
+      "AtmosphereHeight": null,
+      "Gravity": null,
+      "Radius": 213000.0,
+      "RotationSpeed": 4.28,
+      "OMRadius": 314060.0
+    },
+    "IsHidden": false,
+    "QTDistance": 373475,
+    "StarmapID": "732dedf3-9530-4972-98ab-2fcae64669db",
+    "LocationType": 2,
+    "ServiceFlags": 262145,
+    "Key": "euterpe",
+    "ID": 7276
+  },
+  {
+    "ParentBodyID": 7272,
+    "ParentLocationID": 7272,
+    "Name": "Calliope",
+    "Description": "Named after the ancient Greek muse who inspires eloquence to supposedly remind those gazing upon the moon from microTech to \u2018strive for pure expression of thought.\u2019",
+    "AdditionalProperties": {
+      "LocalPosition": {
+        "X": -22398369308.247227,
+        "Y": -37168840679.01129,
+        "Z": 0.0
+      },
+      "GlobalPosition": {
+        "X": -22398369308.247227,
+        "Y": -37168840679.01129,
+        "Z": 0.0
+      },
+      "Rotation": {
+        "X": 212.4145472,
+        "Y": 0,
+        "Z": 0
+      },
+      "AtmosphereHeight": null,
+      "Gravity": null,
+      "Radius": 240000.0,
+      "RotationSpeed": 4.59,
+      "OMRadius": 352245.0
+    },
+    "IsHidden": false,
+    "QTDistance": 402350,
+    "StarmapID": "3304263b-f133-41f8-85e7-79693e5bb2de",
+    "LocationType": 2,
+    "ServiceFlags": 787169,
+    "Key": "calliope",
+    "ID": 7277
+  },
+  {
+    "ParentBodyID": 7269,
+    "ParentLocationID": 7269,
+    "Name": "Arial",
+    "Description": "This moon was named after the 3rd CEO of Hurston Dynamics, Arial Hurston, who was known for creating the controversial Life/Labor-style employee contract.",
+    "AdditionalProperties": {
+      "LocalPosition": {
+        "X": 12892673308.86082,
+        "Y": -31476128.840109,
+        "Z": 0.0
+      },
+      "GlobalPosition": {
+        "X": 12892673308.86082,
+        "Y": -31476128.840109,
+        "Z": 0.0
+      },
+      "Rotation": {
+        "X": 38.5142349,
+        "Y": 0,
+        "Z": 0
+      },
+      "AtmosphereHeight": null,
+      "Gravity": null,
+      "Radius": 344500.0,
+      "RotationSpeed": 5.51,
+      "OMRadius": 501541.0
+    },
+    "IsHidden": false,
+    "QTDistance": 511725,
+    "StarmapID": "f3fa9d13-3fdc-41f3-b5e5-25f0b74c0728",
+    "LocationType": 2,
+    "ServiceFlags": 262881,
+    "Key": "arial",
+    "ID": 7279
+  },
+  {
+    "ParentBodyID": 7269,
+    "ParentLocationID": 7269,
+    "Name": "Aberdeen",
+    "Description": "This moon was named after scientist Aberdeen Hurston who was credited with designing the company's first antimatter warhead.  ",
+    "AdditionalProperties": {
+      "LocalPosition": {
+        "X": 12905757636.431002,
+        "Y": 40955550.560376,
+        "Z": 0.0
+      },
+      "GlobalPosition": {
+        "X": 12905757636.431002,
+        "Y": 40955550.560376,
+        "Z": 0.0
+      },
+      "Rotation": {
+        "X": 116.9448295,
+        "Y": 0,
+        "Z": 0
+      },
+      "AtmosphereHeight": null,
+      "Gravity": null,
+      "Radius": 274000.0,
+      "RotationSpeed": 2.6,
+      "OMRadius": 402707.0
+    },
+    "IsHidden": false,
+    "QTDistance": 437700,
+    "StarmapID": "f8f07f5b-1c0e-47c9-aa50-46963065bf18",
+    "LocationType": 2,
+    "ServiceFlags": 295649,
+    "Key": "aberdeen",
+    "ID": 7280
+  },
+  {
+    "ParentBodyID": 7267,
+    "ParentLocationID": 7267,
+    "Name": "Daymar",
+    "Description": "Named after the middle brother of the three siblings featured in the 25th century children\u2019s morality tale, 'A Gift for Baba,' this is the largest of Crusader\u2019s moons. Daymar\u2019s slightly eccentric orbit is said to represent his ease at getting lost in the story.",
+    "AdditionalProperties": {
+      "LocalPosition": {
+        "X": -18930539539.53483,
+        "Y": -2610158765.498556,
+        "Z": 0.0
+      },
+      "GlobalPosition": {
+        "X": -18930539539.53483,
+        "Y": -2610158765.498556,
+        "Z": 0.0
+      },
+      "Rotation": {
+        "X": 30.2954426,
+        "Y": 0,
+        "Z": 0
+      },
+      "AtmosphereHeight": null,
+      "Gravity": null,
+      "Radius": 295000.0,
+      "RotationSpeed": 2.48,
+      "OMRadius": 430029.0
+    },
+    "IsHidden": false,
+    "QTDistance": 459750,
+    "StarmapID": "e658b2b1-fae7-4945-89b8-b332f235d59b",
+    "LocationType": 2,
+    "ServiceFlags": 262881,
+    "Key": "daymar",
+    "ID": 7281
+  },
+  {
+    "ParentBodyID": 7269,
+    "ParentLocationID": 7269,
+    "Name": "Magda\u00a0",
+    "Description": "This moon was named after Hurston Dynamics CEO Magda Hurston who made the decision to purchase Stanton I from the UEE. Magda is the mother of current CEO \u201cColonel\u201d Gavin E. Hurston.",
+    "AdditionalProperties": {
+      "LocalPosition": {
+        "X": 12792686359.418285,
+        "Y": -74464580.982047,
+        "Z": 0.0
+      },
+      "GlobalPosition": {
+        "X": 12792686359.418285,
+        "Y": -74464580.982047,
+        "Z": 0.0
+      },
+      "Rotation": {
+        "X": 242.7977464,
+        "Y": 0,
+        "Z": 0
+      },
+      "AtmosphereHeight": null,
+      "Gravity": null,
+      "Radius": 340830.0,
+      "RotationSpeed": 1.94,
+      "OMRadius": 494840.0
+    },
+    "IsHidden": false,
+    "QTDistance": 507874,
+    "StarmapID": "6f22b292-38d6-4429-b504-99b39514a2f8",
+    "LocationType": 2,
+    "ServiceFlags": 262881,
+    "Key": "magda",
+    "ID": 7282
+  },
+  {
+    "ParentBodyID": 7263,
+    "ParentLocationID": 7263,
+    "Name": "Lyria",
+    "Description": "This icy moon features active cryogeysers and cryovolcanoes.",
+    "AdditionalProperties": {
+      "LocalPosition": {
+        "X": 18703607171.55599,
+        "Y": -22121650133.86418,
+        "Z": 0.0
+      },
+      "GlobalPosition": {
+        "X": 18703607171.55599,
+        "Y": -22121650133.86418,
+        "Z": 0.0
+      },
+      "Rotation": {
+        "X": 359.4217912,
+        "Y": 0,
+        "Z": 0
+      },
+      "AtmosphereHeight": null,
+      "Gravity": null,
+      "Radius": 223000.0,
+      "RotationSpeed": 6.43,
+      "OMRadius": 383203.0
+    },
+    "IsHidden": false,
+    "QTDistance": 384150,
+    "StarmapID": "452de0e6-e31d-4e2c-b249-1c4244cb713b",
+    "LocationType": 2,
+    "ServiceFlags": 787169,
+    "Key": "lyria",
+    "ID": 7284
+  },
+  {
+    "ParentBodyID": 7263,
+    "ParentLocationID": 7263,
+    "Name": "Wala",
+    "Description": "The low density of Wala is particularly susceptible to tidal forces which result in the moon being noticeably prolate.",
+    "AdditionalProperties": {
+      "LocalPosition": {
+        "X": 18379649309.867424,
+        "Y": -22000466768.038277,
+        "Z": 0.0
+      },
+      "GlobalPosition": {
+        "X": 18379649309.867424,
+        "Y": -22000466768.038277,
+        "Z": 0.0
+      },
+      "Rotation": {
+        "X": 135.56548,
+        "Y": 0,
+        "Z": 0
+      },
+      "AtmosphereHeight": null,
+      "Gravity": null,
+      "Radius": 283000.0,
+      "RotationSpeed": 6.32,
+      "OMRadius": 413056.0
+    },
+    "IsHidden": false,
+    "QTDistance": 447307,
+    "StarmapID": "d6f1ccd9-fbfb-4086-9608-8466ef2c1c93",
+    "LocationType": 2,
+    "ServiceFlags": 262881,
+    "Key": "wala",
+    "ID": 7285
+  },
+  {
+    "ParentBodyID": 7267,
+    "ParentLocationID": 7267,
+    "Name": "Cellin",
+    "Description": "Named after the youngest of the three siblings featured in the 25th century children\u2019s morality tale, 'A Gift for Baba,' this moon features over a hundred currently dormant volcanoes that are said to represent Cellin\u2019s simmering anger.",
+    "AdditionalProperties": {
+      "LocalPosition": {
+        "X": -18987611119.23337,
+        "Y": -2709009660.70514,
+        "Z": 0.0
+      },
+      "GlobalPosition": {
+        "X": -18987611119.23337,
+        "Y": -2709009660.70514,
+        "Z": 0.0
+      },
+      "Rotation": {
+        "X": 253.6008872,
+        "Y": 0,
+        "Z": 0
+      },
+      "AtmosphereHeight": null,
+      "Gravity": null,
+      "Radius": 260000.0,
+      "RotationSpeed": 4.45,
+      "OMRadius": 380528.0
+    },
+    "IsHidden": false,
+    "QTDistance": 423349,
+    "StarmapID": "b41a1bc9-5bca-489b-8273-de90f18ec60d",
+    "LocationType": 2,
+    "ServiceFlags": 787169,
+    "Key": "cellin",
+    "ID": 7287
+  },
+  {
+    "ParentBodyID": 7269,
+    "ParentLocationID": 7269,
+    "Name": "Ita",
+    "Description": "This moon was named after Ita Hurston, who died during the First Tevarin War, as a reminder of why \u201cthe products Hurston Dynamics makes are so important.\u201d",
+    "AdditionalProperties": {
+      "LocalPosition": {
+        "X": 12830194715.812735,
+        "Y": 114913608.600053,
+        "Z": 0.0
+      },
+      "GlobalPosition": {
+        "X": 12830194715.812735,
+        "Y": 114913608.600053,
+        "Z": 0.0
+      },
+      "Rotation": {
+        "X": 243.1995839,
+        "Y": 0,
+        "Z": 0
+      },
+      "AtmosphereHeight": null,
+      "Gravity": null,
+      "Radius": 325000.0,
+      "RotationSpeed": 4.85,
+      "OMRadius": 472452.0
+    },
+    "IsHidden": false,
+    "QTDistance": 491250,
+    "StarmapID": "11368ee6-a2de-4948-a9b0-608ce565f3e3",
+    "LocationType": 2,
+    "ServiceFlags": 262881,
+    "Key": "ita",
+    "ID": 7289
+  },
+  {
+    "ParentBodyID": 7267,
+    "ParentLocationID": 7267,
+    "Name": "Yela",
+    "Description": "Named after the oldest of the three siblings featured in the 25th century children\u2019s morality tale, 'A Gift for Baba,' this moon has a water-ice crust said to represent Yela\u2019s cool and calculating mannerisms.",
+    "AdditionalProperties": {
+      "LocalPosition": {
+        "X": -19022916798.927376,
+        "Y": -2613996151.998472,
+        "Z": 0.0
+      },
+      "GlobalPosition": {
+        "X": -19022916798.927376,
+        "Y": -2613996151.998472,
+        "Z": 0.0
+      },
+      "Rotation": {
+        "X": 218.8119445,
+        "Y": 0,
+        "Z": 0
+      },
+      "AtmosphereHeight": null,
+      "Gravity": null,
+      "Radius": 313000.0,
+      "RotationSpeed": 1.82,
+      "OMRadius": 455482.0
+    },
+    "IsHidden": false,
+    "QTDistance": 478650,
+    "StarmapID": "ee63a520-43df-4e1c-8af7-8b8df06b3dd2",
+    "LocationType": 2,
+    "ServiceFlags": 391909,
+    "Key": "yela",
+    "ID": 7290
+  },
+  {
+    "ParentBodyID": 7295,
+    "ParentLocationID": 7295,
+    "Name": "Grim HEX",
+    "Description": "A cheap Housing Exchange (also known as a HEX) built into a hollowed out asteroid to provide affordable living. As mining opportunities dried up, the station declined and slowly transformed into a market for drugs and petty crime. Locals now refer to the station as Grim HEX.",
+    "AdditionalProperties": {
+      "LocalPosition": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "GlobalPosition": {
+        "X": -19022348140.297737,
+        "Y": -2614379717.3342566,
+        "Z": -2042.0
+      },
+      "Rotation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.9999999999999971
+      },
+      "QTDistance": 18000
+    },
+    "IsHidden": false,
+    "QTDistance": 18000,
+    "StarmapID": "8cda0b9b-22a8-43fe-ac33-df7a1ba9434d",
+    "LocationType": 8,
+    "ServiceFlags": 32996,
+    "Key": "grim_hex",
+    "ID": 7321
+  },
+  {
+    "ParentBodyID": 7294,
+    "ParentLocationID": 7294,
+    "Name": "Comm Array ST2-76",
+    "Description": "Owned and operated by Aciedo, this communication array provides comm coverage and ECN services to this sector of space.",
+    "AdditionalProperties": {
+      "LocalPosition": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "GlobalPosition": {
+        "X": -19022462370.48534,
+        "Y": -2613845816.359015,
+        "Z": 24000.0
+      },
+      "Rotation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.7071067699999997
+      },
+      "QTDistance": 20000
+    },
+    "IsHidden": false,
+    "QTDistance": 20000,
+    "StarmapID": "3797fd7c-5121-4cd1-9685-2a9c36a95060",
+    "LocationType": 8,
+    "ServiceFlags": 0,
+    "Key": "comm_array_st2_76",
+    "ID": 7323
+  },
+  {
+    "ParentBodyID": 7288,
+    "ParentLocationID": 7288,
+    "Name": "Comm Array ST2-55",
+    "Description": "Owned and operated by Aciedo, this communication array provides comm coverage and ECN services to this sector of space.",
+    "AdditionalProperties": {
+      "LocalPosition": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "GlobalPosition": {
+        "X": -18969381497.59053,
+        "Y": -2659717299.496808,
+        "Z": 24000.0
+      },
+      "Rotation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.3826829188150776
+      },
+      "QTDistance": 20000
+    },
+    "IsHidden": false,
+    "QTDistance": 20000,
+    "StarmapID": "20e6f57a-5446-47c5-a23e-9df6bd7239d5",
+    "LocationType": 8,
+    "ServiceFlags": 0,
+    "Key": "comm_array_st2_55",
+    "ID": 7324
+  },
+  {
+    "ParentBodyID": 7266,
+    "ParentLocationID": 7266,
+    "Name": "MIC-L2 Long Forest Station",
+    "Description": "Located at the L2 Lagrange point of microTech (Stanton IV), Rest & Relax's Long Forest Station offers a wide variety of shops and services for the weary traveler including: Refueling, Restocking, Ship Components, Ship Weapons, Personal Weapons, Food, a Clinic, and Habs. Also features a Refinery.",
+    "AdditionalProperties": {
+      "LocalPosition": {
+        "X": -3052013.30172348,
+        "Y": 7965481.332489014,
+        "Z": -11162420.295525752
+      },
+      "GlobalPosition": {
+        "X": 24705775140.173862,
+        "Y": 40913167940.555244,
+        "Z": -11162420.345613752
+      },
+      "Rotation": {
+        "X": -0.0092693221157277,
+        "Y": 0.18928224693364862,
+        "Z": 0.2243184564723834
+      },
+      "QTDistance": 24000
+    },
+    "IsHidden": false,
+    "QTDistance": 24000,
+    "StarmapID": "f602528f-acf3-4564-960c-fc344269a7a9",
+    "LocationType": 8,
+    "ServiceFlags": 131047,
+    "Key": "mic_l2_long_forest_station",
+    "ID": 7325
+  },
+  {
+    "ParentBodyID": 7265,
+    "ParentLocationID": 7265,
+    "Name": "ARC-L2 Lively Pathway Station",
+    "Description": "Owned and operated by Rest & Relax, this station offers plenty of amenities for space-weary travelers. Besides being able to restock and refuel their ships, visitors can rest up and find several shops to peruse for provisions and refreshments.",
+    "AdditionalProperties": {
+      "LocalPosition": {
+        "X": 4037876.1122512817,
+        "Y": 1474836.439491272,
+        "Z": -597034.9069112485
+      },
+      "GlobalPosition": {
+        "X": 20450756379.502388,
+        "Y": -24365976154.266563,
+        "Z": -588958.2819112485
+      },
+      "Rotation": {
+        "X": -0.1794303519957133,
+        "Y": 0.014863347137730992,
+        "Z": 0.25634122263757575
+      },
+      "QTDistance": 24000
+    },
+    "IsHidden": false,
+    "QTDistance": 24000,
+    "StarmapID": "45b909df-7b0c-40c9-ab83-a7cd7d3a980f",
+    "LocationType": 8,
+    "ServiceFlags": 131047,
+    "Key": "arc_l2_lively_pathway_station",
+    "ID": 7327
+  },
+  {
+    "ParentBodyID": 7264,
+    "ParentLocationID": 7264,
+    "Name": "HUR-L5 High Course Station",
+    "Description": "Located at the L5 Lagrange point of Hurston (Stanton I), Rest & Relax's High Course Station offers a wide variety of shops and services for the weary traveler including: Refueling, Restocking, Ship Components, Ship Weapons, Personal Weapons, Food, a Clinic, and Habs.",
+    "AdditionalProperties": {
+      "LocalPosition": {
+        "X": 38805.394063949585,
+        "Y": 155125.74865150452,
+        "Z": -1068577.9844269296
+      },
+      "GlobalPosition": {
+        "X": 6425266581.394064,
+        "Y": -11128668682.251348,
+        "Z": -1068577.9844269296
+      },
+      "Rotation": {
+        "X": -0.21421683542911282,
+        "Y": 0.15040547394424383,
+        "Z": 0.22807284559788685
+      },
+      "QTDistance": 24000
+    },
+    "IsHidden": false,
+    "QTDistance": 24000,
+    "StarmapID": "8e83f4da-c85d-4f00-b98d-bc734a07c5d4",
+    "LocationType": 8,
+    "ServiceFlags": 103141,
+    "Key": "hur_l5_high_course_station",
+    "ID": 7329
+  },
+  {
+    "ParentBodyID": 7304,
+    "ParentLocationID": 7304,
+    "Name": "Covalex Shipping Hub Gundo",
+    "Description": "Formerly Covalex\u2019s prime shipping hub for the system, Gundo suffered an unfortunate accident and have since moved operations to Orison directly for the time being.",
+    "AdditionalProperties": {
+      "LocalPosition": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "GlobalPosition": {
+        "X": -18930780737.597782,
+        "Y": -2609720788.0119,
+        "Z": -300000.0
+      },
+      "Rotation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "QTDistance": 4000
+    },
+    "IsHidden": false,
+    "QTDistance": 4000,
+    "StarmapID": "6dbbb484-2aca-419f-b5ef-8f1efde030e3",
+    "LocationType": 8,
+    "ServiceFlags": 0,
+    "Key": "covalex_shipping_hub_gundo",
+    "ID": 7334
+  },
+  {
+    "ParentBodyID": 7299,
+    "ParentLocationID": 7299,
+    "Name": "Security Post Kareah",
+    "Description": "A brand new outpost built to house an extended Crusader Security presence in this sector. It is expected to be open and operating soon.",
+    "AdditionalProperties": {
+      "LocalPosition": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "GlobalPosition": {
+        "X": -18987599498.87651,
+        "Y": -2709429500.127309,
+        "Z": 200000.0
+      },
+      "Rotation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "QTDistance": 15000
+    },
+    "IsHidden": false,
+    "QTDistance": 15000,
+    "StarmapID": "fe14d2cb-088d-4823-b63f-2f39604c4381",
+    "LocationType": 8,
+    "ServiceFlags": 524352,
+    "Key": "security_post_kareah",
+    "ID": 7339
+  },
+  {
+    "ParentBodyID": 7298,
+    "ParentLocationID": 7298,
+    "Name": "Comm Array ST2-28",
+    "Description": "Owned and operated by Aciedo, this communication array provides comm coverage and ECN services to this sector of space.",
+    "AdditionalProperties": {
+      "LocalPosition": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "GlobalPosition": {
+        "X": -18987368875.27436,
+        "Y": -2708662468.017869,
+        "Z": 24000.0
+      },
+      "Rotation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "QTDistance": 20000
+    },
+    "IsHidden": false,
+    "QTDistance": 20000,
+    "StarmapID": "279c6997-be8b-4a98-8921-cf4ac5f9095d",
+    "LocationType": 8,
+    "ServiceFlags": 0,
+    "Key": "comm_array_st2_28",
+    "ID": 7340
+  },
+  {
+    "ParentBodyID": 7296,
+    "ParentLocationID": 7296,
+    "Name": "Comm Array ST2-47",
+    "Description": "Owned and operated by Aciedo, this communication array provides comm coverage and ECN services to this sector of space.",
+    "AdditionalProperties": {
+      "LocalPosition": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "GlobalPosition": {
+        "X": -18930975156.798557,
+        "Y": -2610305761.305905,
+        "Z": 24000.0
+      },
+      "Rotation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "QTDistance": 20000
+    },
+    "IsHidden": false,
+    "QTDistance": 20000,
+    "StarmapID": "3e24e35f-2ac1-4c3a-85bc-c448222552ed",
+    "LocationType": 8,
+    "ServiceFlags": 0,
+    "Key": "comm_array_st2_47",
+    "ID": 7359
+  },
+  {
+    "ParentBodyID": 7263,
+    "ParentLocationID": 7263,
+    "Name": "Baijini Point",
+    "Description": "The primary cargo and transfer point for ArcCorp. Perfect as a waypoint on your down or back from the surface, Baijini Point features plenty of amenities for travelers while also providing a top-tier loading/unloading system for capital ships that are unable to head down to the surface. Includes shops and services like: Refueling, Restocking, Cargo Transfers, Personal Weapons, Personal Armor, Clothing, Food, a Clinic, and Habs.",
+    "AdditionalProperties": {
+      "LocalPosition": {
+        "X": 318109.4702453613,
+        "Y": -485188.1489562988,
+        "Z": 701308.0556037665
+      },
+      "GlobalPosition": {
+        "X": 18587982849.326267,
+        "Y": -22152402108.461555,
+        "Z": 701308.0556037665
+      },
+      "Rotation": {
+        "X": 0.6378799658407521,
+        "Y": 0.17836397969534612,
+        "Z": -0.6279219323450879
+      },
+      "QTDistance": 24000
+    },
+    "IsHidden": false,
+    "QTDistance": 24000,
+    "StarmapID": "164ca676-83eb-448d-ab0b-1ddde8a9c0bd",
+    "LocationType": 8,
+    "ServiceFlags": 131045,
+    "Key": "baijini_point",
+    "ID": 7360
+  },
+  {
+    "ParentBodyID": 7300,
+    "ParentLocationID": 7300,
+    "Name": "Comm Array ST3-18",
+    "Description": "Owned and operated by Aciedo, this communication array provides comm coverage and ECN services to this sector of space.",
+    "AdditionalProperties": {
+      "LocalPosition": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "GlobalPosition": {
+        "X": 18703224444.537136,
+        "Y": -22121617100.035557,
+        "Z": 24000.0
+      },
+      "Rotation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "QTDistance": 20000
+    },
+    "IsHidden": false,
+    "QTDistance": 20000,
+    "StarmapID": "855e8dd2-23b1-4997-9de2-c0b17b542679",
+    "LocationType": 8,
+    "ServiceFlags": 0,
+    "Key": "comm_array_st3_18",
+    "ID": 7365
+  },
+  {
+    "ParentBodyID": 7283,
+    "ParentLocationID": 7283,
+    "Name": "Comm Array ST3-90",
+    "Description": "Owned and operated by Aciedo, this communication array provides comm coverage and ECN services to this sector of space.",
+    "AdditionalProperties": {
+      "LocalPosition": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "GlobalPosition": {
+        "X": 18588423123.986042,
+        "Y": -22152553280.30414,
+        "Z": 24000.0
+      },
+      "Rotation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "QTDistance": 20000
+    },
+    "IsHidden": false,
+    "QTDistance": 20000,
+    "StarmapID": "04eb557f-f248-47c9-be23-49ddb262beee",
+    "LocationType": 8,
+    "ServiceFlags": 0,
+    "Key": "comm_array_st3_90",
+    "ID": 7366
+  },
+  {
+    "ParentBodyID": 7262,
+    "ParentLocationID": 7262,
+    "Name": "ARC-L3 Modern Express Station",
+    "Description": "Owned and operated by Rest & Relax, this station offers plenty of amenities for space-weary travelers. Besides being able to restock and refuel their ships, visitors can rest up and find several shops to peruse for provisions and refreshments.",
+    "AdditionalProperties": {
+      "LocalPosition": {
+        "X": -608068.7887992859,
+        "Y": 3536230.4433345795,
+        "Z": -3812821.2041864307
+      },
+      "GlobalPosition": {
+        "X": -25044054952.29173,
+        "Y": 14462378018.071386,
+        "Z": -3804744.5791864307
+      },
+      "Rotation": {
+        "X": 0.03547131137286141,
+        "Y": -0.6181380150671256,
+        "Z": 0.31088238322318124
+      },
+      "QTDistance": 24000
+    },
+    "IsHidden": false,
+    "QTDistance": 24000,
+    "StarmapID": "3a43118d-b1b7-4822-8fb2-13f7abe6ac8b",
+    "LocationType": 8,
+    "ServiceFlags": 115429,
+    "Key": "arc_l3_modern_express_station",
+    "ID": 7367
+  },
+  {
+    "ParentBodyID": 7261,
+    "ParentLocationID": 7261,
+    "Name": "HUR-L3 Thundering Express Station",
+    "Description": "Located at the L3 Lagrange point of Hurston (Stanton I), Rest & Relax's Thundering Express Station offers a wide variety of shops and services for the weary traveler including: Refueling, Restocking, Ship Components, Ship Weapons, Food, a Clinic, and Habs.",
+    "AdditionalProperties": {
+      "LocalPosition": {
+        "X": 5615466.082418442,
+        "Y": -2072049.4221630981,
+        "Z": 1009193.2655499238
+      },
+      "GlobalPosition": {
+        "X": -12844842133.917582,
+        "Y": -2073172.844892098,
+        "Z": 1009193.2655499238
+      },
+      "Rotation": {
+        "X": -0.2010474051702443,
+        "Y": 0.09227195866063397,
+        "Z": -0.08608149475219792
+      },
+      "QTDistance": 24000
+    },
+    "IsHidden": false,
+    "QTDistance": 24000,
+    "StarmapID": "de5f2d1d-78e5-4273-8028-c06690c03685",
+    "LocationType": 8,
+    "ServiceFlags": 99045,
+    "Key": "hur_l3_thundering_express_station",
+    "ID": 7368
+  },
+  {
+    "ParentBodyID": 7260,
+    "ParentLocationID": 7260,
+    "Name": "CRU-L4 Shallow Fields Station",
+    "Description": "Located at the L4 Lagrange point of Crusader (Stanton II), Rest & Relax's Shallow Fields Station offers a wide variety of shops and services for the weary traveler including: Refueling, Restocking, Ship Components, Personal Armor, Clothing, Food, a Clinic, and Habs.",
+    "AdditionalProperties": {
+      "LocalPosition": {
+        "X": 2643284.623864174,
+        "Y": 834990.0542831421,
+        "Z": -3822076.7060147375
+      },
+      "GlobalPosition": {
+        "X": -7170525355.376132,
+        "Y": -17753369169.94572,
+        "Z": -3822076.7060147375
+      },
+      "Rotation": {
+        "X": -0.35633671209340606,
+        "Y": -0.1815623312917396,
+        "Z": -0.33638537186553524
+      },
+      "QTDistance": 24000
+    },
+    "IsHidden": false,
+    "QTDistance": 24000,
+    "StarmapID": "8f23301d-0711-47ec-9efb-76a6d8d1c9e6",
+    "LocationType": 8,
+    "ServiceFlags": 125669,
+    "Key": "cru_l4_shallow_fields_station",
+    "ID": 7370
+  },
+  {
+    "ParentBodyID": 7259,
+    "ParentLocationID": 7259,
+    "Name": "CRU-L5 Beautiful Glen Station",
+    "Description": "Located at the L5 Lagrange point of Crusader (Stanton II), Rest & Relax's Beautiful Glen Station offers a wide variety of shops and services for the weary traveler including: Refueling, Restocking, Ship Components, Ship Weapons, Personal Weapons, Food, a Clinic, and Habs.",
+    "AdditionalProperties": {
+      "LocalPosition": {
+        "X": 3004538.099637985,
+        "Y": 1989645.5593986511,
+        "Z": -3842796.9181873826
+      },
+      "GlobalPosition": {
+        "X": -11786004450.160608,
+        "Y": 15091235752.323206,
+        "Z": -3842796.9181873826
+      },
+      "Rotation": {
+        "X": 6.20088657033154e-07,
+        "Y": 0.14781006931609114,
+        "Z": -1.0559877948711597e-06
+      },
+      "QTDistance": 24000
+    },
+    "IsHidden": false,
+    "QTDistance": 24000,
+    "StarmapID": "5905eecd-258a-4046-ad08-90571c41b03c",
+    "LocationType": 8,
+    "ServiceFlags": 111333,
+    "Key": "cru_l5_beautiful_glen_station",
+    "ID": 7372
+  },
+  {
+    "ParentBodyID": 7258,
+    "ParentLocationID": 7258,
+    "Name": "CRU-L1 Ambitious Dream Station",
+    "Description": "Located at the L1 Lagrange point of Crusader (Stanton II), Rest & Relax's Ambitious Dream Station offers a wide variety of shops and services for the weary traveler including: Refueling, Restocking, Personal Armor, Personal Weapons, Clothing, Food, a Clinic, and Habs. Also features a Refinery.",
+    "AdditionalProperties": {
+      "LocalPosition": {
+        "X": -2924906.470035553,
+        "Y": 211264.10234689713,
+        "Z": -507068.53799034335
+      },
+      "GlobalPosition": {
+        "X": -17068882282.470034,
+        "Y": -2398252735.897647,
+        "Z": -507068.53799034335
+      },
+      "Rotation": {
+        "X": -0.139262619083551,
+        "Y": -0.10139376934115431,
+        "Z": -0.21921623866235337
+      },
+      "QTDistance": 24000
+    },
+    "IsHidden": false,
+    "QTDistance": 24000,
+    "StarmapID": "75e777cf-a055-4bc3-8ca7-602eb38be4f3",
+    "LocationType": 8,
+    "ServiceFlags": 131047,
+    "Key": "cru_l1_ambitious_dream_station",
+    "ID": 7374
+  },
+  {
+    "ParentBodyID": 7257,
+    "ParentLocationID": 7257,
+    "Name": "HUR-L4 Melodic Fields Station",
+    "Description": "Located at the L4 Lagrange point of Hurston (Stanton I), Rest & Relax's Melodic Fields Station offers a wide variety of shops and services for the weary traveler including: Refueling, Restocking, Ship Weapons, Personal Weapons, Clothing, Food, a Clinic, and Habs.",
+    "AdditionalProperties": {
+      "LocalPosition": {
+        "X": -1444950.2050676346,
+        "Y": 3584192.803012848,
+        "Z": -2779433.804498161
+      },
+      "GlobalPosition": {
+        "X": 6423783337.794932,
+        "Y": 11132408000.803013,
+        "Z": -2779433.804498161
+      },
+      "Rotation": {
+        "X": -0.15171364442741578,
+        "Y": 0.3407535964740551,
+        "Z": 0.9249102072739571
+      },
+      "QTDistance": 24000
+    },
+    "IsHidden": false,
+    "QTDistance": 24000,
+    "StarmapID": "6e99473c-8446-4c5a-81cb-039a53c1960d",
+    "LocationType": 8,
+    "ServiceFlags": 127717,
+    "Key": "hur_l4_melodic_fields_station",
+    "ID": 7376
+  },
+  {
+    "ParentBodyID": 7256,
+    "ParentLocationID": 7256,
+    "Name": "HUR-L1 Green Glade Station",
+    "Description": "Located at the L1 Lagrange point of Hurston (Stanton I), Rest & Relax's Green Glade Station offers a wide variety of shops and services for the weary traveler including: Refueling, Restocking, Personal Armor, Personal Weapons, Clothing, Food, a Clinic, and Habs. Also features a Refinery.",
+    "AdditionalProperties": {
+      "LocalPosition": {
+        "X": -3461639.05903244,
+        "Y": 1400605.1409129985,
+        "Z": -1532814.129726933
+      },
+      "GlobalPosition": {
+        "X": 11561949688.940968,
+        "Y": 1400605.1409129985,
+        "Z": -1532814.129726933
+      },
+      "Rotation": {
+        "X": 0.12298996728045368,
+        "Y": -0.15411596661869206,
+        "Z": -0.1815629761228322
+      },
+      "QTDistance": 24000
+    },
+    "IsHidden": false,
+    "QTDistance": 24000,
+    "StarmapID": "689ff011-e2e9-4f6e-b5a3-7cea4bbc86c7",
+    "LocationType": 8,
+    "ServiceFlags": 131047,
+    "Key": "hur_l1_green_glade_station",
+    "ID": 7378
+  },
+  {
+    "ParentBodyID": 7255,
+    "ParentLocationID": 7255,
+    "Name": "MIC-L5 Modern Icarus Station",
+    "Description": "Located at the L5 Lagrange point of microTech (Stanton IV), Rest & Relax's Modern Icarus Station offers a wide variety of shops and services for the weary traveler including: Refueling, Restocking, Ship Components, Ship Weapons, Personal Weapons, Food, a Clinic, and Habs.",
+    "AdditionalProperties": {
+      "LocalPosition": {
+        "X": 11367680.093528748,
+        "Y": 4179546.49400115,
+        "Z": -11515331.479004703
+      },
+      "GlobalPosition": {
+        "X": 43446571968.312096,
+        "Y": -847227409.4144288,
+        "Z": -11515331.479004703
+      },
+      "Rotation": {
+        "X": 0.18500380124197535,
+        "Y": 0.12461825090884848,
+        "Z": 0.2542185516338418
+      },
+      "QTDistance": 24000
+    },
+    "IsHidden": false,
+    "QTDistance": 24000,
+    "StarmapID": "54ab7b59-e808-43c4-9e5b-fbfaa03eb3d5",
+    "LocationType": 8,
+    "ServiceFlags": 131047,
+    "Key": "mic_l5_modern_icarus_station",
+    "ID": 7380
+  },
+  {
+    "ParentBodyID": 7254,
+    "ParentLocationID": 7254,
+    "Name": "INS Jericho",
+    "Description": "Completed in 2871, INS Jericho is the main port of call for the UEE Navy in the Stanton system. Named after famed squadron leader Amare Jericho, this station is outfitted to provide logistical support, refueling and resupply options for a variety of capital ships, as well as smaller support and combat vessels.",
+    "AdditionalProperties": {
+      "LocalPosition": {
+        "X": 3726918.8104286194,
+        "Y": -265666.2144584656,
+        "Z": -10942263.717448786
+      },
+      "GlobalPosition": {
+        "X": 20219551156.996464,
+        "Y": 33466799341.400288,
+        "Z": -10942263.717448786
+      },
+      "Rotation": {
+        "X": -0.422386142728187,
+        "Y": 0.15711294172665388,
+        "Z": 0.21662639170595252
+      },
+      "QTDistance": 4000
+    },
+    "IsHidden": false,
+    "QTDistance": 4000,
+    "StarmapID": "503581e8-9c37-48cb-9ef1-6c9ebf0e52b9",
+    "LocationType": 8,
+    "ServiceFlags": 32,
+    "Key": "ins_jericho",
+    "ID": 7382
+  },
+  {
+    "ParentBodyID": 7254,
+    "ParentLocationID": 7254,
+    "Name": "MIC-L1 Shallow Frontier Station",
+    "Description": "Located at the L1 Lagrange point of microTech (Stanton IV), Rest & Relax's Shallow Frontier Station offers a wide variety of shops and services for the weary traveler including: Refueling, Restocking, Personal Weapons, Personal Armor, Clothing, Food, a Clinic, and Habs. Also features a Refinery.",
+    "AdditionalProperties": {
+      "LocalPosition": {
+        "X": -19816938.96416092,
+        "Y": 3896087.728302002,
+        "Z": 10707479.802243175
+      },
+      "GlobalPosition": {
+        "X": 20196007299.221874,
+        "Y": 33470961095.34305,
+        "Z": 10707479.802243175
+      },
+      "Rotation": {
+        "X": 1.3877788e-17,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "QTDistance": 24000
+    },
+    "IsHidden": false,
+    "QTDistance": 24000,
+    "StarmapID": "f4b118f8-3102-4a5c-b8ca-ff013c2f674a",
+    "LocationType": 8,
+    "ServiceFlags": 131047,
+    "Key": "mic_l1_shallow_frontier_station",
+    "ID": 7383
+  },
+  {
+    "ParentBodyID": 7253,
+    "ParentLocationID": 7253,
+    "Name": "MIC-L4 Red Crossroads Station",
+    "Description": "Located at the L4 Lagrange point of microTech (Stanton IV), Rest & Relax's Red Crossroads Station offers a wide variety of shops and services for the weary traveler including: Refueling, Restocking, Ship Components, Ship Weapons, Personal Weapons, Food, a Clinic, and Habs.",
+    "AdditionalProperties": {
+      "LocalPosition": {
+        "X": 6400045.63110733,
+        "Y": 14830210.312393188,
+        "Z": -203806.68337831972
+      },
+      "GlobalPosition": {
+        "X": -20965533184.534775,
+        "Y": 38060334242.33176,
+        "Z": -203806.68337831972
+      },
+      "Rotation": {
+        "X": 0.15492214066431972,
+        "Y": -0.5561394117447062,
+        "Z": 0.16249254162432022
+      },
+      "QTDistance": 24000
+    },
+    "IsHidden": false,
+    "QTDistance": 24000,
+    "StarmapID": "317b7505-e562-4caf-9691-1516ab639bbf",
+    "LocationType": 8,
+    "ServiceFlags": 101093,
+    "Key": "mic_l4_red_crossroads_station",
+    "ID": 7385
+  },
+  {
+    "ParentBodyID": 7252,
+    "ParentLocationID": 7252,
+    "Name": "ARC-L5 Yellow Core Station",
+    "Description": "Owned and operated by Rest & Relax, this station offers plenty of amenities for space-weary travelers. Besides being able to restock and refuel their ships, visitors can rest up and find several shops to peruse for provisions and refreshments.",
+    "AdditionalProperties": {
+      "LocalPosition": {
+        "X": -3894971.180929184,
+        "Y": -3112599.2836532593,
+        "Z": 2516629.655533036
+      },
+      "GlobalPosition": {
+        "X": -9894317487.350607,
+        "Y": -27176844824.423668,
+        "Z": 2524706.280533036
+      },
+      "Rotation": {
+        "X": -0.19474503096533832,
+        "Y": 0.07281201337019261,
+        "Z": 0.24490905113829944
+      },
+      "QTDistance": 24000
+    },
+    "IsHidden": false,
+    "QTDistance": 24000,
+    "StarmapID": "137c093d-a3fd-47ce-bd78-94772ce8f46e",
+    "LocationType": 8,
+    "ServiceFlags": 115429,
+    "Key": "arc_l5_yellow_core_station",
+    "ID": 7387
+  },
+  {
+    "ParentBodyID": 7292,
+    "ParentLocationID": 7292,
+    "Name": "Comm Array ST3-35",
+    "Description": "Owned and operated by Aciedo, this communication array provides comm coverage and ECN services to this sector of space.",
+    "AdditionalProperties": {
+      "LocalPosition": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "GlobalPosition": {
+        "X": 18379572649.819378,
+        "Y": -22000026078.369247,
+        "Z": 24000.0
+      },
+      "Rotation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.92387974286066
+      },
+      "QTDistance": 20000
+    },
+    "IsHidden": false,
+    "QTDistance": 20000,
+    "StarmapID": "6e2b3287-01dd-4ee7-a5cc-48405d90f45a",
+    "LocationType": 8,
+    "ServiceFlags": 0,
+    "Key": "comm_array_st3_35",
+    "ID": 7403
+  },
+  {
+    "ParentBodyID": 7273,
+    "ParentLocationID": 7273,
+    "Name": "MIC-L3 Endless Odyssey Station",
+    "Description": "Located at the L3 Lagrange point of microTech (Stanton IV), Rest & Relax's Endless Odyssey Station offers a wide variety of shops and services for the weary traveler including: Refueling, Restocking, Ship Components, Ship Weapons, Personal Weapons, Food, a Clinic, and Habs.",
+    "AdditionalProperties": {
+      "LocalPosition": {
+        "X": -278390.69661331177,
+        "Y": 145336.96732330322,
+        "Z": -13989534.0356187
+      },
+      "GlobalPosition": {
+        "X": -22457448656.48274,
+        "Y": -37187467058.672775,
+        "Z": -13989534.0356187
+      },
+      "Rotation": {
+        "X": -0.3278280480690514,
+        "Y": 0.10354593920987476,
+        "Z": 0.27463522833327714
+      },
+      "QTDistance": 24000
+    },
+    "IsHidden": false,
+    "QTDistance": 24000,
+    "StarmapID": "2800c56f-0123-4c31-95d6-bfcf73ba8485",
+    "LocationType": 8,
+    "ServiceFlags": 103141,
+    "Key": "mic_l3_endless_odyssey_station",
+    "ID": 7419
+  },
+  {
+    "ParentBodyID": 7293,
+    "ParentLocationID": 7293,
+    "Name": "Comm Array ST4-64",
+    "Description": "Owned and operated by Aciedo, this communication array provides comm coverage and ECN services to this sector of space.",
+    "AdditionalProperties": {
+      "LocalPosition": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "GlobalPosition": {
+        "X": -22487677951.652473,
+        "Y": -37080915530.85631,
+        "Z": 24000.0
+      },
+      "Rotation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "QTDistance": 20000
+    },
+    "IsHidden": false,
+    "QTDistance": 20000,
+    "StarmapID": "521aa728-cf13-4ce1-85f1-ab9f2a26a924",
+    "LocationType": 8,
+    "ServiceFlags": 0,
+    "Key": "comm_array_st4_64",
+    "ID": 7423
+  },
+  {
+    "ParentBodyID": 7297,
+    "ParentLocationID": 7297,
+    "Name": "Comm Array ST4-31",
+    "Description": "Owned and operated by Aciedo, this communication array provides comm coverage and ECN services to this sector of space.",
+    "AdditionalProperties": {
+      "LocalPosition": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "GlobalPosition": {
+        "X": -22398521821.830433,
+        "Y": -37168322582.38682,
+        "Z": 24000.0
+      },
+      "Rotation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.3826829188150776
+      },
+      "QTDistance": 20000
+    },
+    "IsHidden": false,
+    "QTDistance": 20000,
+    "StarmapID": "6228e342-9172-4012-be26-5e5f4c220c92",
+    "LocationType": 8,
+    "ServiceFlags": 0,
+    "Key": "comm_array_st4_31",
+    "ID": 7435
+  },
+  {
+    "ParentBodyID": 7278,
+    "ParentLocationID": 7278,
+    "Name": "Comm Array ST4-22",
+    "Description": "Owned and operated by Aciedo, this communication array provides comm coverage and ECN services to this sector of space.",
+    "AdditionalProperties": {
+      "LocalPosition": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "GlobalPosition": {
+        "X": -22461680395.806976,
+        "Y": -37188122916.95424,
+        "Z": 24000.0
+      },
+      "Rotation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.92387974286066
+      },
+      "QTDistance": 20000
+    },
+    "IsHidden": false,
+    "QTDistance": 20000,
+    "StarmapID": "58a0d924-9786-4dab-b6f8-328c0eb6f456",
+    "LocationType": 8,
+    "ServiceFlags": 0,
+    "Key": "comm_array_st4_22",
+    "ID": 7436
+  },
+  {
+    "ParentBodyID": 7271,
+    "ParentLocationID": 7271,
+    "Name": "ARC-L4 Faint Glen Station",
+    "Description": "Owned and operated by Rest & Relax, this station offers plenty of amenities for space-weary travelers. Besides being able to restock and refuel their ships, visitors can rest up and find several shops to peruse for provisions and refreshments.",
+    "AdditionalProperties": {
+      "LocalPosition": {
+        "X": -606212.6911506653,
+        "Y": -2669086.6286821365,
+        "Z": 2251771.3531950777
+      },
+      "GlobalPosition": {
+        "X": 28477748702.96461,
+        "Y": 5018833396.283061,
+        "Z": 2259847.9781950777
+      },
+      "Rotation": {
+        "X": -0.19474503096533832,
+        "Y": 0.07281201337019261,
+        "Z": 0.24490905113829944
+      },
+      "QTDistance": 24000
+    },
+    "IsHidden": false,
+    "QTDistance": 24000,
+    "StarmapID": "2dbccd4e-81de-45fa-a24c-cd32d29a8ec4",
+    "LocationType": 8,
+    "ServiceFlags": 131047,
+    "Key": "arc_l4_faint_glen_station",
+    "ID": 7437
+  },
+  {
+    "ParentBodyID": 7270,
+    "ParentLocationID": 7270,
+    "Name": "ARC-L1 Wide Forest Station",
+    "Description": "Located at the L1 Lagrange point of ArcCorp (Stanton III), Rest & Relax's Wide Forest Station offers a wide variety of shops and services for the weary traveler including: Refueling, Restocking, Ship Components, Personal Armor, Personal Weapons, Food, a Clinic, and Habs. Also features a Refinery.",
+    "AdditionalProperties": {
+      "LocalPosition": {
+        "X": 519263.1201400757,
+        "Y": -4755659.839412689,
+        "Z": 2741551.184739593
+      },
+      "GlobalPosition": {
+        "X": 16729653900.504784,
+        "Y": -19941762584.73077,
+        "Z": 2749627.809739593
+      },
+      "Rotation": {
+        "X": -0.04662423573018789,
+        "Y": -0.08103586653485854,
+        "Z": 0.0850671825128227
+      },
+      "QTDistance": 24000
+    },
+    "IsHidden": false,
+    "QTDistance": 24000,
+    "StarmapID": "59485d8c-7947-4e00-871c-d35f6451aab8",
+    "LocationType": 8,
+    "ServiceFlags": 131047,
+    "Key": "arc_l1_wide_forest_station",
+    "ID": 7439
+  },
+  {
+    "ParentBodyID": 7291,
+    "ParentLocationID": 7291,
+    "Name": "Comm Array ST4-59",
+    "Description": "Owned and operated by Aciedo, this communication array provides comm coverage and ECN services to this sector of space.",
+    "AdditionalProperties": {
+      "LocalPosition": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "GlobalPosition": {
+        "X": -22476543737.778683,
+        "Y": -37090483079.15151,
+        "Z": 24000.0
+      },
+      "Rotation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -0.3826829188150776
+      },
+      "QTDistance": 20000
+    },
+    "IsHidden": false,
+    "QTDistance": 20000,
+    "StarmapID": "04a4c07f-dce3-4c7d-96fc-7d655ca674db",
+    "LocationType": 8,
+    "ServiceFlags": 0,
+    "Key": "comm_array_st4_59",
+    "ID": 7447
+  },
+  {
+    "ParentBodyID": 7272,
+    "ParentLocationID": 7272,
+    "Name": "Port Tressler",
+    "Description": "Located in the trade lane above microTech, Port Tressler is the main transfer hub for New Babbage. Millions of SCU pass through this station everyday between exports from microTech and the other companies on the surface and the resources and trade coming in from the other systems. Includes shops and services like: Refueling, Restocking, Cargo Transfers, Ship Components, Personal Armor, Clothing, Food, a Clinic, and Habs.",
+    "AdditionalProperties": {
+      "LocalPosition": {
+        "X": -365305.74185180664,
+        "Y": -571495.8373565674,
+        "Z": 898531.1866530343
+      },
+      "GlobalPosition": {
+        "X": -22462450558.226646,
+        "Y": -37186316460.66746,
+        "Z": 898531.1866530343
+      },
+      "Rotation": {
+        "X": 0.196669087462134,
+        "Y": 0.15115007750179918,
+        "Z": 0.3868891857843854
+      },
+      "QTDistance": 24000
+    },
+    "IsHidden": false,
+    "QTDistance": 24000,
+    "StarmapID": "233238ee-adeb-4405-8045-49fa07370f37",
+    "LocationType": 8,
+    "ServiceFlags": 131045,
+    "Key": "port_tressler",
+    "ID": 7467
+  },
+  {
+    "ParentBodyID": 7302,
+    "ParentLocationID": 7302,
+    "Name": "Comm Array ST1-92",
+    "Description": "Owned and operated by Aciedo, this communication array provides comm coverage and ECN services to this sector of space.",
+    "AdditionalProperties": {
+      "LocalPosition": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "GlobalPosition": {
+        "X": 12905322277.914536,
+        "Y": 40910336.93077,
+        "Z": 24000.0
+      },
+      "Rotation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "QTDistance": 20000
+    },
+    "IsHidden": false,
+    "QTDistance": 20000,
+    "StarmapID": "245d683e-45eb-49b2-9de4-576bab3ce03e",
+    "LocationType": 8,
+    "ServiceFlags": 0,
+    "Key": "comm_array_st1_92",
+    "ID": 7481
+  },
+  {
+    "ParentBodyID": 7301,
+    "ParentLocationID": 7301,
+    "Name": "Comm Array ST1-48",
+    "Description": "Owned and operated by Aciedo, this communication array provides comm coverage and ECN services to this sector of space.",
+    "AdditionalProperties": {
+      "LocalPosition": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "GlobalPosition": {
+        "X": 12792273313.812181,
+        "Y": -74169064.51520503,
+        "Z": 24000.0
+      },
+      "Rotation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.7071067699999997
+      },
+      "QTDistance": 20000
+    },
+    "IsHidden": false,
+    "QTDistance": 20000,
+    "StarmapID": "d7acf24e-0466-4ed1-8357-cdac58c7399b",
+    "LocationType": 8,
+    "ServiceFlags": 0,
+    "Key": "comm_array_st1_48",
+    "ID": 7484
+  },
+  {
+    "ParentBodyID": 7286,
+    "ParentLocationID": 7286,
+    "Name": "Comm Array ST1-61",
+    "Description": "Owned and operated by Aciedo, this communication array provides comm coverage and ECN services to this sector of space.",
+    "AdditionalProperties": {
+      "LocalPosition": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "GlobalPosition": {
+        "X": 12850561681.106617,
+        "Y": -1195433.7962295034,
+        "Z": 24000.0
+      },
+      "Rotation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -0.3826829188150776
+      },
+      "QTDistance": 20000
+    },
+    "IsHidden": false,
+    "QTDistance": 20000,
+    "StarmapID": "7db4570e-3ea3-4352-982f-d3d34df92632",
+    "LocationType": 8,
+    "ServiceFlags": 0,
+    "Key": "comm_array_st1_61",
+    "ID": 7485
+  },
+  {
+    "ParentBodyID": 7268,
+    "ParentLocationID": 7268,
+    "Name": "HUR-L2 Faithful Dream Station",
+    "Description": "Located at the L2 Lagrange point of Hurston (Stanton I), Rest & Relax's Faithful Dream Station offers a wide variety of shops and services for the weary traveler including: Refueling, Restocking, Ship Components, Ship Weapons, Personal Weapons, Food, a Clinic, and Habs. Also features a Refinery.",
+    "AdditionalProperties": {
+      "LocalPosition": {
+        "X": 2933005.288795471,
+        "Y": -3371299.3227408105,
+        "Z": 1122527.473162712
+      },
+      "GlobalPosition": {
+        "X": 14138435853.288795,
+        "Y": -3371299.3227408105,
+        "Z": 1122527.473162712
+      },
+      "Rotation": {
+        "X": -0.28099352065804456,
+        "Y": -0.00642561172995126,
+        "Z": -0.2097397005304701
+      },
+      "QTDistance": 24000
+    },
+    "IsHidden": false,
+    "QTDistance": 24000,
+    "StarmapID": "81e3150a-9c12-4715-85d4-afd6da69b8f0",
+    "LocationType": 8,
+    "ServiceFlags": 131047,
+    "Key": "hur_l2_faithful_dream_station",
+    "ID": 7486
+  },
+  {
+    "ParentBodyID": 7267,
+    "ParentLocationID": 7267,
+    "Name": "Port Olisar",
+    "Description": "Located in the trade lanes above Crusader, Port Olisar offers a breathtaking view of the planet below. Owned and operated by Crusader Industries, Port Olisar acts as a gateway to the company\u2019s vast planetary holdings and orbital shipyards. The station offers a wide variety of shops and services including: Refueling, Restocking, Ship Weapons, Ship Components, Personal Armor, Personal Weapons, Clothing, and Habs.",
+    "AdditionalProperties": {
+      "LocalPosition": {
+        "X": -8065446.543315887,
+        "Y": -1586403.7105970383,
+        "Z": -592474.6558637053
+      },
+      "GlobalPosition": {
+        "X": -18970241446.543316,
+        "Y": -2666546403.710593,
+        "Z": -592474.6558637053
+      },
+      "Rotation": {
+        "X": -0.3282959926724684,
+        "Y": 0.6334229156209615,
+        "Z": 0.6231089333742725
+      },
+      "QTDistance": 8000
+    },
+    "IsHidden": false,
+    "QTDistance": 8000,
+    "StarmapID": "3ba201f1-326d-4694-b4db-021ef8823797",
+    "LocationType": 8,
+    "ServiceFlags": 129765,
+    "Key": "port_olisar",
+    "ID": 7493
+  },
+  {
+    "ParentBodyID": 7305,
+    "ParentLocationID": 7305,
+    "Name": "Comm Array ST1-02",
+    "Description": "Owned and operated by Aciedo, this communication array provides comm coverage and ECN services to this sector of space.",
+    "AdditionalProperties": {
+      "LocalPosition": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "GlobalPosition": {
+        "X": 12829718895.281034,
+        "Y": 114791455.42618507,
+        "Z": 24000.0
+      },
+      "Rotation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -0.7071067699999997
+      },
+      "QTDistance": 20000
+    },
+    "IsHidden": false,
+    "QTDistance": 20000,
+    "StarmapID": "bd938343-c1bf-4397-9f6d-2a1b15f34db0",
+    "LocationType": 8,
+    "ServiceFlags": 0,
+    "Key": "comm_array_st1_02",
+    "ID": 7507
+  },
+  {
+    "ParentBodyID": 7269,
+    "ParentLocationID": 7269,
+    "Name": "Everus Harbor",
+    "Description": "Hurston's primary port of call for Lorville for all large-scale incoming and outgoing cargo. Everus Harbor has been outfitted with a handful of amenities for capital ships and travelers looking for a quick stopover before heading down to the planet surface. Includes shops and services like: Refueling, Restocking, Cargo Transfers, Ship Components, Personal Armor, Clothing, Food, a Clinic, and Habs.",
+    "AdditionalProperties": {
+      "LocalPosition": {
+        "X": 415659.4706802368,
+        "Y": -860508.5018535011,
+        "Z": -638203.6482061966
+      },
+      "GlobalPosition": {
+        "X": 12850872752.47068,
+        "Y": -860508.5018535011,
+        "Z": -638203.6482061966
+      },
+      "Rotation": {
+        "X": 0.4932851755123834,
+        "Y": 0.14453103826420427,
+        "Z": 0.4069021245344298
+      },
+      "QTDistance": 24000
+    },
+    "IsHidden": false,
+    "QTDistance": 24000,
+    "StarmapID": "ab29f65e-c792-4b1f-b23d-5810cb0ef416",
+    "LocationType": 8,
+    "ServiceFlags": 131045,
+    "Key": "everus_harbor",
+    "ID": 7516
+  },
+  {
+    "ParentBodyID": 7303,
+    "ParentLocationID": 7303,
+    "Name": "Comm Array ST1-13",
+    "Description": "Owned and operated by Aciedo, this communication array provides comm coverage and ECN services to this sector of space.",
+    "AdditionalProperties": {
+      "LocalPosition": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "GlobalPosition": {
+        "X": 12893178936.563745,
+        "Y": -31397368.637145832,
+        "Z": 24000.0
+      },
+      "Rotation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -0.7071067699999997
+      },
+      "QTDistance": 20000
+    },
+    "IsHidden": false,
+    "QTDistance": 20000,
+    "StarmapID": "8161aada-e08d-464a-95ac-974d13e1fb59",
+    "LocationType": 8,
+    "ServiceFlags": 0,
+    "Key": "comm_array_st1_13",
+    "ID": 7530
+  }
+]
