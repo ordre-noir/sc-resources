@@ -38,6 +38,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: tradein-space
     steps:
+      - uses: actions/checkout@v3
       - name: Extraction process
         uses: actions/setup-python@v4
         with:
