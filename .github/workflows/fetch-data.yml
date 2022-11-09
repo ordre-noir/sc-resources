@@ -31,7 +31,7 @@ jobs:
         uses: EndBug/add-and-commit@v9
         with:
           add: tradein.space/*.json
-          message: 'update GameData'
+          message: 'update GameData ${{ steps.pu_version.outputs.pu_version }}'
 
 #      - name: tag is commited
 #        uses: EndBug/add-and-commit@v9
@@ -48,15 +48,16 @@ jobs:
 
       - name: Get PU version from fleetyard
         id: version
-        run: curl --fail https://fleetyards.fra1.digitaloceanspaces.com/sc_data/version > /tmp/version
-             echo PU_VERSION='cat /tmp/version' >> $GITHUB_OUTPUT
+        run: |
+          curl --fail https://fleetyards.fra1.digitaloceanspaces.com/sc_data/version > /tmp/version
+          echo PU_VERSION='cat /tmp/version' >> $GITHUB_OUTPUT
 
       - name: save file
         uses: EndBug/add-and-commit@v9
         with:
           add: fleetyard.net/*.json
-          message: 'update models'
-
+          message: 'update models ${{ steps.pu_version.outputs.pu_version }}'
+ 
 #      - name: tag is commited
 #        uses: EndBug/add-and-commit@v9
 #        with:
