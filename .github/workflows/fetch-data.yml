@@ -32,22 +32,48 @@ jobs:
         with:
           add: tradein.space/*.json
           message: 'update GameData'
-          tag: ${{ steps.pu_version.outputs.pu_version }}
+          tag: tradein-space-${{ steps.pu_version.outputs.pu_version }}
 
-  extraction:
+  fleetyard:
     runs-on: ubuntu-latest
-    needs: tradein-space
     steps:
       - uses: actions/checkout@v3
+
+      - name: fleetyards/models 
+        run: curl --fail "https://api.fleetyards.net/v1/models?page=1&perPage=200" > fleetyard.net/models.json
+
+      - name: Extract version from GameData.json
+        id: version
+        run: curl --fail https://fleetyards.fra1.digitaloceanspaces.com/sc_data/version > /tmp/version
+             echo PU_VERSION='cat /tmp/version' >> $GITHUB_OUTPUT
+
+      - name: save file and tag
+        uses: EndBug/add-and-commit@v9
+        with:
+          add: fleetyard.net/*.json
+          message: 'update models'
+          tag: fleetyard-net-${{ steps.pu_version.outputs.pu_version }}
+
+  extraction-locations:
+    runs-on: ubuntu-latest
+    needs: [tradein-space, fleetyard]
+    steps:
+      - uses: actions/checkout@v3
+
       - name: Extraction process
         uses: actions/setup-python@v4
         with:
           python-version: '3.10' 
       - run: python $GITHUB_WORKSPACE/extraction.py -i $GITHUB_WORKSPACE/tradein.space/GameData.json
+     
+      - name: Format to csv
+        uses: sergeysova/jq-action@v2
+        with:
+          cmd: cat fleetyard.net/models.json | jq -r ".[] | [.name, .cargo] | @csv" > nargit/models.json
 
-      - name: save file
+      - name: save files
         uses: EndBug/add-and-commit@v9
         with:
           add: nargit/*
-          message: 'Update QED data'
+          message: 'Update nargit data'
 
