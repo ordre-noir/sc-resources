@@ -27,12 +27,16 @@ jobs:
         with:
           cmd: echo PU_VERSION='jq .Name tradein.space/GameData.json -r' >> $GITHUB_OUTPUT
 
-      - name: save file and tag
+      - name: save file
         uses: EndBug/add-and-commit@v9
         with:
           add: tradein.space/*.json
           message: 'update GameData'
-          tag: tradein-space-${{ steps.pu_version.outputs.pu_version }}
+
+#      - name: tag is commited
+#        uses: EndBug/add-and-commit@v9
+#        with:
+#          tag: tradein-space-${{ steps.pu_version.outputs.pu_version }}
 
   fleetyard:
     runs-on: ubuntu-latest
@@ -42,17 +46,21 @@ jobs:
       - name: fleetyards/models 
         run: curl --fail "https://api.fleetyards.net/v1/models?page=1&perPage=200" > fleetyard.net/models.json
 
-      - name: Extract version from GameData.json
+      - name: Get PU version from fleetyard
         id: version
         run: curl --fail https://fleetyards.fra1.digitaloceanspaces.com/sc_data/version > /tmp/version
              echo PU_VERSION='cat /tmp/version' >> $GITHUB_OUTPUT
 
-      - name: save file and tag
+      - name: save file
         uses: EndBug/add-and-commit@v9
         with:
           add: fleetyard.net/*.json
           message: 'update models'
-          tag: fleetyard-net-${{ steps.pu_version.outputs.pu_version }}
+
+#      - name: tag is commited
+#        uses: EndBug/add-and-commit@v9
+#        with:
+#          tag: fleetyard-net-${{ steps.pu_version.outputs.pu_version }}
 
   extraction-locations:
     runs-on: ubuntu-latest
