@@ -78,7 +78,7 @@ jobs:
       - name: Format to csv
         uses: sergeysova/jq-action@v2
         with:
-          cmd: cat fleetyard.net/models.json | jq -r ".[] | [.name, .cargo] | @csv" > nargit/models.json
+          cmd: cat fleetyard.net/models.json | jq -r ".[] | [.name, .cargo] | @csv" > nargit/models.csv
 
       - name: save files
         uses: EndBug/add-and-commit@v9
