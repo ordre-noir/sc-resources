@@ -71,7 +71,7 @@ def main(argv):
     if len(results) == 0:
         raise ValueError("No results found")
 
-    with open(Path(__file__).parent.joinpath('nargit/qed-data.csv'), 'w', newline='', encoding='utf-8') as csvfile:
+    with open(Path(__file__).parent.parent.joinpath('nargit/qed-data.csv'), 'w', newline='', encoding='utf-8') as csvfile:
         spamwriter = csv.writer(csvfile, delimiter=',',
                                 quotechar='"', quoting=csv.QUOTE_MINIMAL)
         spamwriter.writerow(
