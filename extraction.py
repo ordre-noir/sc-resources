@@ -53,10 +53,7 @@ def main(argv):
         elif opt in ("-i", "--ifile"):
             inputfile = arg
 
-    print(argv)
-    print(inputfile)
-
-    with open(inputfile, "r", encoding="utf-8") as f:
+    with open(Path(__file__).parent.joinpath(inputfile), "r", encoding="utf-8") as f:
         data = json.load(f)
         system_locations = data["SystemLocations"]
         results = []
@@ -70,23 +67,23 @@ def main(argv):
             results.append(result)
         Path("nargit/database.json").write_text(json.dumps(results, indent=2))
 
-        with open('nargit/qed-data.csv', 'w', newline='', encoding='utf-8') as csvfile:
-            spamwriter = csv.writer(csvfile, delimiter=',',
-                                    quotechar='"', quoting=csv.QUOTE_MINIMAL)
-            spamwriter.writerow(
-                ["Name", "Description", "X", "Y", "Z", "LocationType", "Radius", "OMRadius", "QTDistance",
-                 "GridRadius"])
-            for entry in results:
-                properties = entry["AdditionalProperties"]
-                spamwriter.writerow([entry["Name"].strip(), entry["Description"],
-                                     properties["GlobalPosition"]["X"],
-                                     properties["GlobalPosition"]["Y"],
-                                     properties["GlobalPosition"]["Z"],
-                                     entry["LocationType"],
-                                     properties["Radius"] if "Radius" in properties else None,
-                                     properties["OMRadius"] if "OMRadius" in properties else None,
-                                     entry["QTDistance"],
-                                     grid_radius[entry["Key"]] if entry["Key"] in grid_radius else None])
+    with open('nargit/qed-data.csv', 'w', newline='', encoding='utf-8') as csvfile:
+        spamwriter = csv.writer(csvfile, delimiter=',',
+                                quotechar='"', quoting=csv.QUOTE_MINIMAL)
+        spamwriter.writerow(
+            ["Name", "Description", "X", "Y", "Z", "LocationType", "Radius", "OMRadius", "QTDistance",
+             "GridRadius"])
+        for entry in results:
+            properties = entry["AdditionalProperties"]
+            spamwriter.writerow([entry["Name"].strip(), entry["Description"],
+                                 properties["GlobalPosition"]["X"],
+                                 properties["GlobalPosition"]["Y"],
+                                 properties["GlobalPosition"]["Z"],
+                                 entry["LocationType"],
+                                 properties["Radius"] if "Radius" in properties else None,
+                                 properties["OMRadius"] if "OMRadius" in properties else None,
+                                 entry["QTDistance"],
+                                 grid_radius[entry["Key"]] if entry["Key"] in grid_radius else None])
 
 
 if __name__ == '__main__':

@@ -20,6 +20,6 @@ jobs:
       - name: Fetch data
         uses: githubocto/flat@v3
         with:
-          http_url: https://tradein.space/api/data/
-          downloaded_filename: GameData
+          http_url: https://tradein.space/api/data/GameData
+          downloaded_filename: GameData.json
           postprocess: ./postprocessing_tradeinspace.ts
