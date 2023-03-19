@@ -2,7 +2,6 @@
 import csv
 import getopt
 import json
-import shutil
 import sys
 from enum import Enum
 from pathlib import Path
@@ -43,7 +42,7 @@ class LocationType(Enum):
 def main(argv):
     inputfile = ''
     try:
-        opts, args = getopt.getopt(argv, "hi:", ["ifile="])
+        opts, args = getopt.getopt(argv[1:], "hi:", ["ifile="])
     except getopt.GetoptError:
         print('extraction.py -i <inputfile>')
         sys.exit(2)
@@ -65,8 +64,8 @@ def main(argv):
                                               LocationType.MOON.value, LocationType.STATION.value,
                                               LocationType.SUN.value]:
                 continue
-            additional_properties = json.loads(system["AdditionalProperties"])
-            results.append({"AdditionalProperties": additional_properties})
+            system["AdditionalProperties"] = json.loads(system["AdditionalProperties"])
+            results.append(system)
 
     if len(results) == 0:
         raise ValueError("No results found")
@@ -89,8 +88,6 @@ def main(argv):
                                  entry["QTDistance"],
                                  grid_radius[entry["Key"]] if entry["Key"] in grid_radius else None])
 
-    shutil.move(game_data_file, Path(__file__).parent.joinpath("nargit", inputfile))
-
 
 if __name__ == '__main__':
-    main(sys.argv[1:])
+    main(sys.argv)
