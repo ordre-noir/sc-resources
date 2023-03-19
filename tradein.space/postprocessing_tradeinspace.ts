@@ -15,4 +15,13 @@ const py_run = Deno.run({
     cmd: ['python', './tradein.space/postprocessing_tradeinspace.py', '-i'].concat(Deno.args),
 });
 
-await py_run.status();
+const [{code}, rawError] = await Promise.all([
+    py_run.status(),
+    py_run.stderrOutput(),
+]);
+
+if (code !== 0) {
+    const errorString = new TextDecoder().decode(rawError);
+    console.log(errorString);
+    Deno.exit(code);
+}
