@@ -1,7 +1,8 @@
 #!/usr/bin/python
 import csv
-import sys, getopt
+import getopt
 import json
+import sys
 from enum import Enum
 from pathlib import Path
 
@@ -52,9 +53,9 @@ def main(argv):
         elif opt in ("-i", "--ifile"):
             inputfile = arg
 
-	print(argv)
-	print(inputfile)
-	
+    print(argv)
+    print(inputfile)
+
     with open(inputfile, "r", encoding="utf-8") as f:
         data = json.load(f)
         system_locations = data["SystemLocations"]
