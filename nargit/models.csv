@@ -1,176 +1,177 @@
-"100i",2
-"125a",2
-"135c",6
-"300i",8
-"315p",12
-"325a",4
-"350r",4
-"400i",42
-"600i Executive-Edition",40
-"600i Explorer",40
-"600i Touring",12
-"85X",0
-"890 Jump",100
-"A1 Spirit",0
-"A2 Hercules",234
-"Apollo Medivac",28
-"Apollo Triage",28
-"Ares Inferno",0
-"Ares Ion",0
-"Arrow",0
-"Aurora CL",6
-"Aurora ES",3
-"Aurora LN",3
-"Aurora LX",3
-"Aurora MR",3
-"Avenger Stalker",0
-"Avenger Titan",8
-"Avenger Titan Renegade",8
-"Avenger Warlock",0
-"Ballista",0
-"Blade",0
-"Buccaneer",0
-"C1 Spirit",48
-"C2 Hercules",672
-"C8 Pisces",4
-"C8X Pisces Expedition",4
-"Carrack",456
-"Caterpillar",576
-"Centurion",0
-"Constellation Andromeda",96
-"Constellation Aquila",96
-"Constellation Phoenix",96
-"Constellation Taurus",174
-"Corsair",72
-"Crucible",230
-"Cutlass Black",46
-"Cutlass Blue",12
-"Cutlass Red",12
-"Cutlass Steel",0
-"Cyclone",1
-"Cyclone AA",0
-"Cyclone MT",0
-"Cyclone RC",0
-"Cyclone RN",0
-"Cyclone TR",0
-"Defender",0
-"Dragonfly Black",0
-"Dragonfly Starkitten Edition",0
-"Dragonfly Yellowjacket",0
-"E1 Spirit",0
-"Eclipse",0
-"Endeavor",500
-"Expanse",128
-"F7A Hornet",0
-"F7C Hornet",2
-"F7C Hornet Wildfire",0
-"F7C-M Super Hornet",0
-"F7C-M Super Hornet Heartseeker",0
-"F7C-R Hornet Tracker",0
-"F7C-S Hornet Ghost",0
-"F8C Lightning",0
-"F8C Lightning Executive-Edition",0
-"Freelancer",66
-"Freelancer DUR",36
-"Freelancer MAX",120
-"Freelancer MIS",36
-"G12",2
-"G12a",0
-"G12r",0
-"Genesis",300
-"Gladiator",0
-"Gladius",0
-"Gladius Valiant",0
-"Glaive",0
-"Hammerhead",40
-"Hawk",0
-"Herald",0
-"HoverQuad",0
-"Hull A",64
-"Hull B",384
-"Hull C",4608
-"Hull D",20736
-"Hull E",98304
-"Hurricane",0
-"Idris-M",831
-"Idris-P",995
-"Javelin",5400
-"Khartu-Al",0
-"Kraken",3792
-"Kraken Privateer",768
-"Legionnaire",0
-"Liberator",400
-"M2 Hercules",468
-"M50",0
-"Mantis",0
-"Merchantman",2880
-"Mercury Star Runner",114
-"MOLE",96
-"MPUV Cargo",2
-"MPUV Personnel",2
-"Mule",1
-"Mustang Alpha",4
-"Mustang Beta",0
-"Mustang Delta",0
-"Mustang Gamma",0
-"Mustang Omega",0
-"Nautilus",64
-"Nomad",24
-"Nova",0
-"Nox",0
-"Nox Kue",0
-"Odyssey",252
-"Orion",384
-"P-52 Merlin",0
-"P-72 Archimedes",0
-"Perseus",50
-"Pioneer",600
-"Pirate Gladius",0
-"Polaris",216
-"Prospector",32
-"Prowler",0
-"PTV",0
-"RAFT",96
-"Railen",320
-"Ranger CV",0
-"Ranger RC",0
-"Ranger TR",0
-"Razor",0
-"Razor EX",0
-"Razor LX",0
-"Reclaimer",180
-"Redeemer",2
-"Reliant Kore",6
-"Reliant Mako",0
-"Reliant Sen",0
-"Reliant Tana",1
-"Retaliator",0
-"Retaliator Bomber",0
-"ROC",1
-"ROC-DS",4
-"Sabre",0
-"Sabre Comet",0
-"Sabre Raven",0
-"San'tok.yāi",0
-"Scorpius",0
-"Scythe",0
-"Spartan",0
-"SRV",10
-"Starfarer",291
-"Starfarer Gemini",291
-"STV",1
-"Talon",0
-"Talon Shrike",0
-"Terrapin",0
-"Ursa Rover",4
-"Ursa Rover Fortuna",4
-"Valkyrie",30
-"Vanguard Harbinger",0
-"Vanguard Hoplite",0
-"Vanguard Sentinel",0
-"Vanguard Warden",0
-"Vulcan",12
-"Vulture",16
-"X1",0
-"X1 Force",0
-"X1 Velocity",0
+name,cargo
+100i,2
+125a,2
+135c,6
+300i,8
+315p,12
+325a,4
+350r,4
+400i,42
+600i Executive-Edition,40
+600i Explorer,40
+600i Touring,12
+85X,0
+890 Jump,100
+A1 Spirit,0
+A2 Hercules,234
+Apollo Medivac,28
+Apollo Triage,28
+Ares Inferno,0
+Ares Ion,0
+Arrow,0
+Aurora CL,6
+Aurora ES,3
+Aurora LN,3
+Aurora LX,3
+Aurora MR,3
+Avenger Stalker,0
+Avenger Titan,8
+Avenger Titan Renegade,8
+Avenger Warlock,0
+Ballista,0
+Blade,0
+Buccaneer,0
+C1 Spirit,48
+C2 Hercules,672
+C8 Pisces,4
+C8X Pisces Expedition,4
+Carrack,456
+Caterpillar,576
+Centurion,0
+Constellation Andromeda,96
+Constellation Aquila,96
+Constellation Phoenix,96
+Constellation Taurus,174
+Corsair,72
+Crucible,230
+Cutlass Black,46
+Cutlass Blue,12
+Cutlass Red,12
+Cutlass Steel,0
+Cyclone,1
+Cyclone AA,0
+Cyclone MT,0
+Cyclone RC,0
+Cyclone RN,0
+Cyclone TR,0
+Defender,0
+Dragonfly Black,0
+Dragonfly Starkitten Edition,0
+Dragonfly Yellowjacket,0
+E1 Spirit,0
+Eclipse,0
+Endeavor,500
+Expanse,128
+F7A Hornet,0
+F7C Hornet,2
+F7C Hornet Wildfire,0
+F7C-M Super Hornet,0
+F7C-M Super Hornet Heartseeker,0
+F7C-R Hornet Tracker,0
+F7C-S Hornet Ghost,0
+F8C Lightning,0
+F8C Lightning Executive-Edition,0
+Freelancer,66
+Freelancer DUR,36
+Freelancer MAX,120
+Freelancer MIS,36
+G12,2
+G12a,0
+G12r,0
+Genesis,300
+Gladiator,0
+Gladius,0
+Gladius Valiant,0
+Glaive,0
+Hammerhead,40
+Hawk,0
+Herald,0
+HoverQuad,0
+Hull A,64
+Hull B,384
+Hull C,4608
+Hull D,20736
+Hull E,98304
+Hurricane,0
+Idris-M,831
+Idris-P,995
+Javelin,5400
+Khartu-Al,0
+Kraken,3792
+Kraken Privateer,768
+Legionnaire,0
+Liberator,400
+M2 Hercules,468
+M50,0
+Mantis,0
+Merchantman,2880
+Mercury Star Runner,114
+MOLE,96
+MPUV Cargo,2
+MPUV Personnel,2
+Mule,1
+Mustang Alpha,4
+Mustang Beta,0
+Mustang Delta,0
+Mustang Gamma,0
+Mustang Omega,0
+Nautilus,64
+Nomad,24
+Nova,0
+Nox,0
+Nox Kue,0
+Odyssey,252
+Orion,384
+P-52 Merlin,0
+P-72 Archimedes,0
+Perseus,50
+Pioneer,600
+Pirate Gladius,0
+Polaris,216
+Prospector,32
+Prowler,0
+PTV,0
+RAFT,96
+Railen,320
+Ranger CV,0
+Ranger RC,0
+Ranger TR,0
+Razor,0
+Razor EX,0
+Razor LX,0
+Reclaimer,180
+Redeemer,2
+Reliant Kore,6
+Reliant Mako,0
+Reliant Sen,0
+Reliant Tana,1
+Retaliator,0
+Retaliator Bomber,0
+ROC,1
+ROC-DS,4
+Sabre,0
+Sabre Comet,0
+Sabre Raven,0
+San'tok.yāi,0
+Scorpius,0
+Scythe,0
+Spartan,0
+SRV,10
+Starfarer,291
+Starfarer Gemini,291
+STV,1
+Talon,0
+Talon Shrike,0
+Terrapin,0
+Ursa Rover,4
+Ursa Rover Fortuna,4
+Valkyrie,30
+Vanguard Harbinger,0
+Vanguard Hoplite,0
+Vanguard Sentinel,0
+Vanguard Warden,0
+Vulcan,12
+Vulture,16
+X1,0
+X1 Force,0
+X1 Velocity,0

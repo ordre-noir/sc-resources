@@ -12,7 +12,7 @@ await pip_install.status();
 
 // Forwards the execution to the python script
 const py_run = Deno.run({
-    cmd: ['python', './tradein.space/postprocessing_tradeinspace.py', '-i'].concat(Deno.args),
+    cmd: ['python', './tradein.space/postprocessing.py', '-i'].concat(Deno.args),
 });
 
 

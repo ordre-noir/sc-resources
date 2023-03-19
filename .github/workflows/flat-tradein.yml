@@ -6,10 +6,10 @@ on:
   push:
     paths:
       - .github/workflows/flat-tradein.yml
-      - tradein.space/postprocessing_tradeinspace.ts
-      - tradein.space/postprocessing_tradeinspace.py
+      - tradein.space/postprocessing.ts
+      - tradein.space/postprocessing.py
 jobs:
-  scheduled:
+  flat:
     runs-on: ubuntu-latest
     steps:
       - name: Setup deno
@@ -23,5 +23,5 @@ jobs:
         with:
           http_url: https://tradein.space/api/data/GameData
           downloaded_filename: tradein.space/GameData.json
-          postprocess: ./tradein.space/postprocessing_tradeinspace.ts
+          postprocess: ./tradein.space/postprocessing.ts
       
