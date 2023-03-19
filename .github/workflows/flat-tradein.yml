@@ -1,8 +1,8 @@
-name: data
+name: flat-tradeinspace
 on:
+  workflow_dispatch:
   schedule:
     - cron: 0 0 * * *
-  workflow_dispatch:
   push:
     paths:
       - .github/workflows/flat-tradein.yml
