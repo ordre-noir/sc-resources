@@ -6,8 +6,8 @@ on:
   push:
     paths:
       - .github/workflows/flat-tradein.yml
-      - ./postprocessing_tradeinspace.ts
-      - ./postprocessing_tradeinspace.py
+      - ./tradein.space/postprocessing_tradeinspace.ts
+      - ./tradein.space/postprocessing_tradeinspace.py
 jobs:
   scheduled:
     runs-on: ubuntu-latest
@@ -23,5 +23,5 @@ jobs:
         with:
           http_url: https://tradein.space/api/data/GameData
           downloaded_filename: tradein.space/GameData.json
-          postprocess: ./postprocessing_tradeinspace.ts
+          postprocess: ./tradein.space/postprocessing_tradeinspace.ts
       
