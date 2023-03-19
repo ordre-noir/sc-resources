@@ -6,8 +6,8 @@ on:
   push:
     paths:
       - .github/workflows/flat-tradein.yml
-      - ./tradein.space/postprocessing_tradeinspace.ts
-      - ./tradein.space/postprocessing_tradeinspace.py
+      - tradein.space/postprocessing_tradeinspace.ts
+      - tradein.space/postprocessing_tradeinspace.py
 jobs:
   scheduled:
     runs-on: ubuntu-latest
