@@ -2,6 +2,7 @@
 import csv
 import getopt
 import json
+import shutil
 import sys
 from enum import Enum
 from pathlib import Path
@@ -53,19 +54,22 @@ def main(argv):
         elif opt in ("-i", "--ifile"):
             inputfile = arg
 
-    with open(Path(__file__).parent.joinpath(inputfile), "r", encoding="utf-8") as f:
+    results = []
+    game_data_file = Path(__file__).parent.joinpath(inputfile)
+    with open(game_data_file, "r", encoding="utf-8") as f:
         data = json.load(f)
         system_locations = data["SystemLocations"]
-        results = []
         for system in system_locations:
             if system["LocationType"] not in [LocationType.LAGRANGE.value, LocationType.PLANET.value,
                                               LocationType.MOON.value, LocationType.STATION.value,
                                               LocationType.SUN.value]:
                 continue
-            result = system
-            result["AdditionalProperties"] = json.loads(system["AdditionalProperties"])
-            results.append(result)
+            additional_properties = json.loads(system["AdditionalProperties"])
+            results.append({"AdditionalProperties": additional_properties})
         Path("nargit/database.json").write_text(json.dumps(results, indent=2))
+
+    if len(results) == 0:
+        raise ValueError("No results found")
 
     with open('nargit/qed-data.csv', 'w', newline='', encoding='utf-8') as csvfile:
         spamwriter = csv.writer(csvfile, delimiter=',',
@@ -84,6 +88,8 @@ def main(argv):
                                  properties["OMRadius"] if "OMRadius" in properties else None,
                                  entry["QTDistance"],
                                  grid_radius[entry["Key"]] if entry["Key"] in grid_radius else None])
+
+    shutil.move(game_data_file, Path(__file__).parent.joinpath("nargit", inputfile))
 
 
 if __name__ == '__main__':
