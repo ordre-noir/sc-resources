@@ -52,6 +52,9 @@ def main(argv):
         elif opt in ("-i", "--ifile"):
             inputfile = arg
 
+	print(argv)
+	print(inputfile)
+	
     with open(inputfile, "r", encoding="utf-8") as f:
         data = json.load(f)
         system_locations = data["SystemLocations"]
