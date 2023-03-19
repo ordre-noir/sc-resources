@@ -34,6 +34,7 @@ Buccaneer,0
 C1 Spirit,48
 C2 Hercules,672
 C8 Pisces,4
+C8R Pisces,0
 C8X Pisces Expedition,4
 Carrack,456
 Caterpillar,576
@@ -48,6 +49,7 @@ Cutlass Black,46
 Cutlass Blue,12
 Cutlass Red,12
 Cutlass Steel,0
+Cutter,4
 Cyclone,1
 Cyclone AA,0
 Cyclone MT,0
@@ -78,6 +80,7 @@ Freelancer MIS,36
 G12,2
 G12a,0
 G12r,0
+Galaxy,64
 Genesis,300
 Gladiator,0
 Gladius,0
@@ -108,7 +111,7 @@ Merchantman,2880
 Mercury Star Runner,114
 MOLE,96
 MPUV Cargo,2
-MPUV Personnel,2
+MPUV Personnel,0
 Mule,1
 Mustang Alpha,4
 Mustang Beta,0
@@ -154,6 +157,7 @@ Sabre Comet,0
 Sabre Raven,0
 San'tok.yāi,0
 Scorpius,0
+Scorpius Antares,0
 Scythe,0
 Spartan,0
 SRV,10
@@ -171,7 +175,7 @@ Vanguard Hoplite,0
 Vanguard Sentinel,0
 Vanguard Warden,0
 Vulcan,12
-Vulture,16
+Vulture,12
 X1,0
 X1 Force,0
 X1 Velocity,0
