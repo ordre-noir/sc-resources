@@ -4,7 +4,7 @@ on:
   push:
     paths:
       - .github/workflows/flat-fleetyards.yml
-      - tradein.space/postprocessing_fleetyards.ts
+      - fleetyards.net/postprocessing.ts
 jobs:
   flat:
     runs-on: ubuntu-latest
