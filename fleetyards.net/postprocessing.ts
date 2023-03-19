@@ -5,4 +5,4 @@ console.log(Deno.args)
 const filename = join("..", Deno.args[0])
 const arr = await readJSON(filename)
 const res = arr.map(({name, cargo}: { name: string; cargo: number }) => ({name, cargo}));
-await writeCSV(join("..", "nargit", "models.csv", res))
+await writeCSV(join("..", "nargit", "models.csv"), res)
