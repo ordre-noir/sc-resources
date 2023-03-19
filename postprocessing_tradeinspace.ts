@@ -10,10 +10,9 @@ const pip_install = Deno.run({
 await pip_install.status();
 
 
-
 // Forwards the execution to the python script
 const py_run = Deno.run({
-    cmd: ['python', './extraction.py'].concat(Deno.args),
+    cmd: ['python', './extraction.py', '-i'].concat(Deno.args),
 });
 
 await py_run.status();
