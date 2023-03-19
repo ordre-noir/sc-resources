@@ -55,7 +55,8 @@ def main(argv):
             inputfile = arg
 
     results = []
-    game_data_file = Path(__file__).parent.joinpath(inputfile)
+    print(inputfile)
+    game_data_file = Path(__file__).parent.parent.joinpath(inputfile)
     with open(game_data_file, "r", encoding="utf-8") as f:
         data = json.load(f)
         system_locations = data["SystemLocations"]
