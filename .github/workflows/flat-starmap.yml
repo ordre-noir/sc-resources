@@ -5,7 +5,7 @@ on:
     paths:
       - .github/workflows/flat-starmap.yml
 jobs:
-  scheduled:
+  flat:
     runs-on: ubuntu-latest
     steps:
       - name: Setup deno
