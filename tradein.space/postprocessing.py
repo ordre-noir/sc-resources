@@ -6,23 +6,24 @@ import sys
 from enum import Enum
 from pathlib import Path
 
-grid_radius = {
-    "aberdeen": 548000,
-    "arial": 689000,
-    "arccorp": 1900000,
-    "calliope": 480666,
-    "cellin": 520666,
-    "clio": 674334,
-    "crusader": 15000000,
-    "daymar": 590000,
-    "euterpe": 425666,
-    "hurston": 2000000,
-    "ita": 650000,
-    "lyria": 446000,
-    "magda": 681666,
-    "microtech": 2300000,
-    "wala": 566300,
-    "yela": 1016000,
+murphys_grid_radius = {
+    "aberdeen ": 548 * 1000,
+    "arccorp ": 1900 * 1000,
+    "arial": 689 * 1000,
+    "calliope": 480.666 * 1000,
+    "cellin": 520.666 * 1000,
+    "clio": 674.334 * 1000,
+    "crusader": 14900 * 1000,
+    "daymar": 590 * 1000,
+    "delamar": 700 * 1000,
+    "euterpe": 425.666 * 1000,
+    "hurston": 2000 * 1000,
+    "ita": 650 * 1000,
+    "lyria": 446 * 1000,
+    "magda": 681.666 * 1000,
+    "microtech": 2300 * 1000,
+    "wala": 566.3 * 1000,
+    "yela": 1016.6 * 1000,
 }
 
 
@@ -86,7 +87,7 @@ def main(argv):
                                  properties["Radius"] if "Radius" in properties else None,
                                  properties["OMRadius"] if "OMRadius" in properties else None,
                                  entry["QTDistance"],
-                                 grid_radius[entry["Key"]] if entry["Key"] in grid_radius else None])
+                                 murphys_grid_radius[entry["Key"]] if entry["Key"] in murphys_grid_radius else None])
 
 
 if __name__ == '__main__':
