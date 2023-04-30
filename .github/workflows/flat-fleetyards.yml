@@ -2,6 +2,8 @@ name: flat-fleetyards
 on:
   workflow_dispatch:
   push:
+    tags-ignore:
+     - .*
     paths:
       - .github/workflows/flat-fleetyards.yml
       - fleetyards.net/postprocessing.ts
