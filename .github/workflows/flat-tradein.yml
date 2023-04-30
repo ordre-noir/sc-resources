@@ -2,6 +2,8 @@ name: flat-tradeinspace
 on:
   workflow_dispatch:
   push:
+    tags-ignore:
+     - .*
     paths:
       - .github/workflows/flat-tradein.yml
       - tradein.space/postprocessing.ts
