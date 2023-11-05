@@ -1,0 +1,25 @@
+name: flat-spviewer
+on:
+  workflow_dispatch:
+  push:
+    tags-ignore:
+     - .*
+    paths:
+      - .github/workflows/flat-spviewer.yml
+      - spviewer.sp/postprocessing.ts
+jobs:
+  flat:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Setup deno
+        uses: denoland/setup-deno@main
+        with:
+          deno-version: v1.10.x
+      - name: Check out repo
+        uses: actions/checkout@v3
+      - name: Fetch data
+        uses: githubocto/flat@v3
+        with:
+          http_url: https://www.spviewer.eu/assets/json/ship-items-min.json
+          downloaded_filename: spviewer.sp/ship-items-min.json
+          postprocess: ./spviewer.sp/postprocessing.ts
