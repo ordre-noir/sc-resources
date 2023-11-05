@@ -5,7 +5,7 @@ on:
     tags-ignore:
      - .*
     paths:
-      - .github/workflows/flat-spviewer.yml
+      - .github/workflows/flat-spviewer.yaml
 jobs:
   flat:
     runs-on: ubuntu-latest
