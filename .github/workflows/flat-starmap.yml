@@ -5,7 +5,7 @@ on:
     tags-ignore:
      - .*
     paths:
-      - .github/workflows/flat-starmap.yml
+      - .github/workflows/flat-starmap.yaml
 jobs:
   flat:
     runs-on: ubuntu-latest
