@@ -5,7 +5,7 @@ on:
     tags-ignore:
      - .*
     paths:
-      - .github/workflows/flat-tradein.yml
+      - .github/workflows/flat-tradein.yaml
       - tradein.space/postprocessing.ts
       - tradein.space/postprocessing.py
 jobs:
